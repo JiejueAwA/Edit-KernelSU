@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.executemoduleaction
+package lol.nightmaple.zakusu.ui.screen.executemoduleaction
 
 import android.annotation.SuppressLint
 import androidx.activity.compose.BackHandler
@@ -47,12 +47,12 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.KeyEventBlocker
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.SnackBarHost
-import me.weishu.kernelsu.ui.component.material.TopBarBackButton
-import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.KeyEventBlocker
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.SnackBarHost
+import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
+import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
 
 @SuppressLint("LocalContextGetResourceValueCall")
 @Composable

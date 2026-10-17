@@ -1,7 +1,7 @@
-package me.weishu.kernelsu.ui.screen.template
+package lol.nightmaple.zakusu.ui.screen.template
 
 import androidx.compose.runtime.Immutable
-import me.weishu.kernelsu.data.model.TemplateInfo
+import lol.nightmaple.zakusu.data.model.TemplateInfo
 
 @Immutable
 data class TemplateUiState(

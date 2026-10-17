@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package lol.nightmaple.zakusu.ui.component
 
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.runtime.Composable

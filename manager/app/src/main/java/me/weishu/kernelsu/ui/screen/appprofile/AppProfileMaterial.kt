@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.appprofile
+package lol.nightmaple.zakusu.ui.screen.appprofile
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.Crossfade
@@ -57,23 +57,23 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.AppIconImage
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.ExpressiveToggleButton
-import me.weishu.kernelsu.ui.component.material.SegmentedColumn
-import me.weishu.kernelsu.ui.component.material.SegmentedListItem
-import me.weishu.kernelsu.ui.component.material.SegmentedSwitchItem
-import me.weishu.kernelsu.ui.component.material.SnackBarHost
-import me.weishu.kernelsu.ui.component.material.TopBarBackButton
-import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
-import me.weishu.kernelsu.ui.component.profile.AppProfileConfig
-import me.weishu.kernelsu.ui.component.profile.RootProfileConfig
-import me.weishu.kernelsu.ui.component.profile.TemplateConfig
-import me.weishu.kernelsu.ui.component.statustag.StatusTag
-import me.weishu.kernelsu.ui.util.ownerNameForUid
-import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.AppIconImage
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveToggleButton
+import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
+import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedSwitchItem
+import lol.nightmaple.zakusu.ui.component.material.SnackBarHost
+import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
+import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
+import lol.nightmaple.zakusu.ui.component.profile.AppProfileConfig
+import lol.nightmaple.zakusu.ui.component.profile.RootProfileConfig
+import lol.nightmaple.zakusu.ui.component.profile.TemplateConfig
+import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
+import lol.nightmaple.zakusu.ui.util.ownerNameForUid
+import lol.nightmaple.zakusu.ui.viewmodel.SuperUserViewModel
 
 /**
  * @author weishu

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.home
+package lol.nightmaple.zakusu.ui.screen.home
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
@@ -60,18 +60,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.KernelVersion
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.WarningLevel
-import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.SegmentedColumn
-import me.weishu.kernelsu.ui.component.material.SegmentedListItem
-import me.weishu.kernelsu.ui.component.material.TonalCard
-import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
-import me.weishu.kernelsu.ui.component.rebootlistpopup.RebootListPopup
-import me.weishu.kernelsu.ui.component.statustag.StatusTag
+import lol.nightmaple.zakusu.KernelVersion
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.WarningLevel
+import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
+import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
+import lol.nightmaple.zakusu.ui.component.material.TonalCard
+import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
+import lol.nightmaple.zakusu.ui.component.rebootlistpopup.RebootListPopup
+import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
 
 @Composable
 fun HomePagerMaterial(
@@ -601,7 +601,7 @@ private fun previewHomeScreenState(
     isSafeMode = isSafeMode,
     isLateLoadMode = isLateLoadMode,
     checkUpdateEnabled = false,
-    latestVersionInfo = me.weishu.kernelsu.ui.util.module.LatestVersionInfo(),
+    latestVersionInfo = lol.nightmaple.zakusu.ui.util.module.LatestVersionInfo(),
     currentManagerVersionCode = 10000,
     systemInfo = previewSystemInfo.copy(selinuxStatus = selinuxStatus),
     kernelUAPIVersion = 1,

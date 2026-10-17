@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.rebootlistpopup
+package lol.nightmaple.zakusu.ui.component.rebootlistpopup
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.PowerSettingsNew
@@ -15,8 +15,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.res.stringResource
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.KsuIsValid
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.KsuIsValid
 
 @Composable
 fun RebootDropdownItems(onItemClick: (String) -> Unit) {

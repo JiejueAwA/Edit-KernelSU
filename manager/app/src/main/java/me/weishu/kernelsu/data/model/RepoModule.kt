@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.data.model
+package lol.nightmaple.zakusu.data.model
 
 import androidx.compose.runtime.Immutable
 

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
 import android.content.ComponentName
 import android.content.Intent
@@ -15,14 +15,14 @@ import com.topjohnwu.superuser.ipc.RootService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.IKsuInterface
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.data.model.AppInfo
-import me.weishu.kernelsu.data.model.WEBVIEW_ZYGOTE_PROFILE_KEY
-import me.weishu.kernelsu.data.model.WEBVIEW_ZYGOTE_UID
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.KsuService
-import me.weishu.kernelsu.ui.util.KsuCli
+import lol.nightmaple.zakusu.IKsuInterface
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.data.model.AppInfo
+import lol.nightmaple.zakusu.data.model.WEBVIEW_ZYGOTE_PROFILE_KEY
+import lol.nightmaple.zakusu.data.model.WEBVIEW_ZYGOTE_UID
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.KsuService
+import lol.nightmaple.zakusu.ui.util.KsuCli
 import kotlin.coroutines.resume
 
 class SuperUserRepositoryImpl : SuperUserRepository {

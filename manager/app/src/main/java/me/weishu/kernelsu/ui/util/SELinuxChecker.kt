@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package lol.nightmaple.zakusu.ui.util
 
 import com.topjohnwu.superuser.Shell
 

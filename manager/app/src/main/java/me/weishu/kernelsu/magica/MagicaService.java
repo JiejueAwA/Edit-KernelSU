@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.magica;
+package lol.nightmaple.zakusu.magica;
 
 import android.app.Service;
 import android.content.Intent;

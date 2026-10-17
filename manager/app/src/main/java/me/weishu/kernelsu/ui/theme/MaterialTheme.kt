@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.theme
+package lol.nightmaple.zakusu.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -9,7 +9,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.view.WindowInsetsControllerCompat
-import me.weishu.kernelsu.ui.webui.MonetColorsProvider
+import lol.nightmaple.zakusu.ui.webui.MonetColorsProvider
 
 @Composable
 fun MaterialKernelSUTheme(

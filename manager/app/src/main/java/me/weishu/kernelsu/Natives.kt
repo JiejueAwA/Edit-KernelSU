@@ -1,12 +1,12 @@
-package me.weishu.kernelsu
+package lol.nightmaple.zakusu
 
 import android.os.Parcelable
 import androidx.annotation.Keep
 import androidx.compose.runtime.Immutable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
-import me.weishu.kernelsu.Natives.Profile.RootProfileFlag
-import me.weishu.kernelsu.ui.util.rootAvailable
+import lol.nightmaple.zakusu.Natives.Profile.RootProfileFlag
+import lol.nightmaple.zakusu.ui.util.rootAvailable
 
 /**
  * @author weishu

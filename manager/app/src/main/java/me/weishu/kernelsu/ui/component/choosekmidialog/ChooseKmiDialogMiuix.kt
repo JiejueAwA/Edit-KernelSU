@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.choosekmidialog
+package lol.nightmaple.zakusu.ui.component.choosekmidialog
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -20,9 +20,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.util.getCurrentKmi
-import me.weishu.kernelsu.ui.util.getSupportedKmis
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.util.getCurrentKmi
+import lol.nightmaple.zakusu.ui.util.getSupportedKmis
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.TextButton
 import top.yukonga.miuix.kmp.overlay.OverlayDialog

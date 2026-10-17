@@ -1,7 +1,7 @@
-package me.weishu.kernelsu.ui.component
+package lol.nightmaple.zakusu.ui.component
 
 import androidx.compose.runtime.Composable
-import me.weishu.kernelsu.Natives
+import lol.nightmaple.zakusu.Natives
 
 @Composable
 fun KsuIsValid(

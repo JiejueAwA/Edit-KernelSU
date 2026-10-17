@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package lol.nightmaple.zakusu.ui.util
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -6,10 +6,10 @@ import kotlinx.serialization.KSerializer
 import kotlinx.serialization.builtins.ByteArraySerializer
 import kotlinx.serialization.encoding.Decoder
 import kotlinx.serialization.encoding.Encoder
-import me.weishu.kernelsu.ui.screen.flash.FlashIt
-import me.weishu.kernelsu.ui.screen.modulerepo.RepoModuleArg
-import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunArg
-import me.weishu.kernelsu.ui.viewmodel.TemplateViewModel
+import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
+import lol.nightmaple.zakusu.ui.screen.modulerepo.RepoModuleArg
+import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunArg
+import lol.nightmaple.zakusu.ui.viewmodel.TemplateViewModel
 
 object FlashItSerializer : BaseParcelableSerializer<FlashIt>(FlashIt::class.java)
 object RepoModuleArgSerializer : BaseParcelableSerializer<RepoModuleArg>(RepoModuleArg::class.java)

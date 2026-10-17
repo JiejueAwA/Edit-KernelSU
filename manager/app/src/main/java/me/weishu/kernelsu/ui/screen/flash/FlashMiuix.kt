@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.flash
+package lol.nightmaple.zakusu.ui.screen.flash
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
@@ -37,11 +37,11 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.KeyEventBlocker
-import me.weishu.kernelsu.ui.theme.LocalEnableBlur
-import me.weishu.kernelsu.ui.util.BlurredBar
-import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.KeyEventBlocker
+import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
+import lol.nightmaple.zakusu.ui.util.BlurredBar
+import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.FloatingActionButton
 import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.IconButton

@@ -1,12 +1,12 @@
-package me.weishu.kernelsu.ui.screen.modulerepo
+package lol.nightmaple.zakusu.ui.screen.modulerepo
 
 import androidx.compose.runtime.Immutable
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.model.RepoModule
-import me.weishu.kernelsu.data.model.RepoModuleDetail
-import me.weishu.kernelsu.data.registry.UnsupportedSchemaException
-import me.weishu.kernelsu.data.script.ScriptRunRecord
-import me.weishu.kernelsu.ui.component.SearchStatus
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.model.RepoModule
+import lol.nightmaple.zakusu.data.model.RepoModuleDetail
+import lol.nightmaple.zakusu.data.registry.UnsupportedSchemaException
+import lol.nightmaple.zakusu.data.script.ScriptRunRecord
+import lol.nightmaple.zakusu.ui.component.SearchStatus
 import java.text.Collator
 import java.util.Locale
 

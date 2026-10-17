@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.markdown
+package lol.nightmaple.zakusu.ui.component.markdown
 
 import android.annotation.SuppressLint
 import android.content.ActivityNotFoundException
@@ -28,15 +28,15 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.webkit.WebViewAssetLoader
-import me.weishu.kernelsu.data.registry.RegistryUrls
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.LocalUiMode
-import me.weishu.kernelsu.ui.UiMode
-import me.weishu.kernelsu.ui.theme.isInDarkTheme
-import me.weishu.kernelsu.ui.util.adjustLightnessArgb
-import me.weishu.kernelsu.ui.util.cssColorFromArgb
-import me.weishu.kernelsu.ui.util.ensureVisibleByMix
-import me.weishu.kernelsu.ui.util.relativeLuminance
+import lol.nightmaple.zakusu.data.registry.RegistryUrls
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.LocalUiMode
+import lol.nightmaple.zakusu.ui.UiMode
+import lol.nightmaple.zakusu.ui.theme.isInDarkTheme
+import lol.nightmaple.zakusu.ui.util.adjustLightnessArgb
+import lol.nightmaple.zakusu.ui.util.cssColorFromArgb
+import lol.nightmaple.zakusu.ui.util.ensureVisibleByMix
+import lol.nightmaple.zakusu.ui.util.relativeLuminance
 import okhttp3.Headers.Companion.toHeaders
 import okhttp3.OkHttpClient
 import okhttp3.Request

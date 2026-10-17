@@ -1,11 +1,11 @@
-package me.weishu.kernelsu.ui.screen.superuser
+package lol.nightmaple.zakusu.ui.screen.superuser
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.graphics.Color
-import me.weishu.kernelsu.data.model.AppInfo
-import me.weishu.kernelsu.ui.component.SearchStatus
-import me.weishu.kernelsu.ui.viewmodel.AppSortConfig
+import lol.nightmaple.zakusu.data.model.AppInfo
+import lol.nightmaple.zakusu.ui.component.SearchStatus
+import lol.nightmaple.zakusu.ui.viewmodel.AppSortConfig
 
 @Immutable
 data class GroupedApps(

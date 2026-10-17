@@ -1,12 +1,12 @@
-package me.weishu.kernelsu.data.model
+package lol.nightmaple.zakusu.data.model
 
 import android.os.Parcelable
 import android.util.Log
 import androidx.compose.runtime.Immutable
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.profile.Capabilities
-import me.weishu.kernelsu.profile.Groups
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.profile.Capabilities
+import lol.nightmaple.zakusu.profile.Groups
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.Locale

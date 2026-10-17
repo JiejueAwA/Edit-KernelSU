@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.webui
+package lol.nightmaple.zakusu.ui.webui
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -19,12 +19,12 @@ import android.webkit.WebViewClient
 import androidx.webkit.WebViewAssetLoader
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.repository.ModuleRepositoryImpl
-import me.weishu.kernelsu.ui.util.AppIconCache
-import me.weishu.kernelsu.ui.util.createRootShell
-import me.weishu.kernelsu.ui.util.withMainUserUid
-import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.repository.ModuleRepositoryImpl
+import lol.nightmaple.zakusu.ui.util.AppIconCache
+import lol.nightmaple.zakusu.ui.util.createRootShell
+import lol.nightmaple.zakusu.ui.util.withMainUserUid
+import lol.nightmaple.zakusu.ui.viewmodel.SuperUserViewModel
 import java.io.File
 
 fun Activity.setTaskDescription(label: String) {

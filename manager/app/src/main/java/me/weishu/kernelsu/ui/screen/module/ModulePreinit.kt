@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.ui.screen.module
+package lol.nightmaple.zakusu.ui.screen.module
 
 import androidx.annotation.StringRes
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.model.Module
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.model.Module
 
 /** Message for a module whose preinit actions will not run on the next boot, null otherwise. */
 @StringRes

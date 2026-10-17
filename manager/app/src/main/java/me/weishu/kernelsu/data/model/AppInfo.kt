@@ -1,9 +1,9 @@
-package me.weishu.kernelsu.data.model
+package lol.nightmaple.zakusu.data.model
 
 import android.content.pm.PackageInfo
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.Natives
+import lol.nightmaple.zakusu.Natives
 
 const val WEBVIEW_ZYGOTE_UID = 1053
 const val WEBVIEW_ZYGOTE_PROFILE_KEY = "webview_zygote"

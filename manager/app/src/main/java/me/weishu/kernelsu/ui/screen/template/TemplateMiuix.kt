@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.template
+package lol.nightmaple.zakusu.ui.screen.template
 
 import android.annotation.SuppressLint
 import androidx.compose.animation.core.animateDpAsState
@@ -60,13 +60,13 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.model.TemplateInfo
-import me.weishu.kernelsu.ui.component.ListPopupDefaults
-import me.weishu.kernelsu.ui.component.miuix.DropdownItem
-import me.weishu.kernelsu.ui.theme.LocalEnableBlur
-import me.weishu.kernelsu.ui.util.BlurredBar
-import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.model.TemplateInfo
+import lol.nightmaple.zakusu.ui.component.ListPopupDefaults
+import lol.nightmaple.zakusu.ui.component.miuix.DropdownItem
+import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
+import lol.nightmaple.zakusu.ui.util.BlurredBar
+import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.FloatingActionButton
 import top.yukonga.miuix.kmp.basic.HorizontalDivider

@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
-import me.weishu.kernelsu.data.model.RepoModuleDetail
-import me.weishu.kernelsu.data.model.RepoModuleList
-import me.weishu.kernelsu.data.registry.UpdateVerification
+import lol.nightmaple.zakusu.data.model.RepoModuleDetail
+import lol.nightmaple.zakusu.data.model.RepoModuleList
+import lol.nightmaple.zakusu.data.registry.UpdateVerification
 
 interface ModuleRepoRepository {
     /** Index + module list; falls back to the last complete cached copy on failure. */
@@ -10,7 +10,7 @@ interface ModuleRepoRepository {
 
     /**
      * Detail (and readme) of a module in the current index. Fails with
-     * [me.weishu.kernelsu.data.registry.ModuleNotInIndexException] if it is not listed.
+     * [lol.nightmaple.zakusu.data.registry.ModuleNotInIndexException] if it is not listed.
      */
     suspend fun fetchDetail(moduleId: String): Result<RepoModuleDetail>
 

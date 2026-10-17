@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package lol.nightmaple.zakusu.ui.util
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -23,14 +23,14 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.registry.DownloadVerificationException
-import me.weishu.kernelsu.data.registry.ExpectedFile
-import me.weishu.kernelsu.data.registry.RegistryDownloadStore
-import me.weishu.kernelsu.data.registry.RegistryUrls
-import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.MainActivity
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.registry.DownloadVerificationException
+import lol.nightmaple.zakusu.data.registry.ExpectedFile
+import lol.nightmaple.zakusu.data.registry.RegistryDownloadStore
+import lol.nightmaple.zakusu.data.registry.RegistryUrls
+import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.MainActivity
 import okhttp3.Call
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -42,10 +42,10 @@ class DownloadService : Service() {
 
     companion object {
         const val CHANNEL_ID = "download_channel"
-        const val ACTION_DOWNLOAD = "me.weishu.kernelsu.action.DOWNLOAD"
-        const val ACTION_CANCEL = "me.weishu.kernelsu.action.CANCEL_DOWNLOAD"
-        const val ACTION_DISMISS_DOWNLOAD = "me.weishu.kernelsu.action.DISMISS_DOWNLOAD"
-        const val ACTION_INSTALL_MODULE = "me.weishu.kernelsu.action.INSTALL_MODULE"
+        const val ACTION_DOWNLOAD = "lol.nightmaple.zakusu.action.DOWNLOAD"
+        const val ACTION_CANCEL = "lol.nightmaple.zakusu.action.CANCEL_DOWNLOAD"
+        const val ACTION_DISMISS_DOWNLOAD = "lol.nightmaple.zakusu.action.DISMISS_DOWNLOAD"
+        const val ACTION_INSTALL_MODULE = "lol.nightmaple.zakusu.action.INSTALL_MODULE"
         const val EXTRA_URL = "url"
         const val EXTRA_TOKEN = "token"
         const val EXTRA_FILE_NAME = "fileName"

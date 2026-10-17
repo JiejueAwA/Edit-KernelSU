@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.install
+package lol.nightmaple.zakusu.ui.screen.install
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
@@ -40,12 +40,12 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
-import me.weishu.kernelsu.ui.theme.LocalEnableBlur
-import me.weishu.kernelsu.ui.util.BlurredBar
-import me.weishu.kernelsu.ui.util.LkmSelection
-import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
+import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
+import lol.nightmaple.zakusu.ui.util.BlurredBar
+import lol.nightmaple.zakusu.ui.util.LkmSelection
+import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.BasicComponent
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.Card

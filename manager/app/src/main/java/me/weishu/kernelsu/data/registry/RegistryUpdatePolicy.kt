@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.data.registry
+package lol.nightmaple.zakusu.data.registry
 
 /** How an `updateJson` update of an installed module is downloaded and verified. */
 sealed interface UpdateVerification {

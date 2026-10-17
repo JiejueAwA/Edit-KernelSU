@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.dialog
+package lol.nightmaple.zakusu.ui.component.dialog
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -15,9 +15,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import me.weishu.kernelsu.data.registry.RegistryUrls
-import me.weishu.kernelsu.ui.component.markdown.MarkdownContent
-import me.weishu.kernelsu.ui.component.material.ExpressiveDialog
+import lol.nightmaple.zakusu.data.registry.RegistryUrls
+import lol.nightmaple.zakusu.ui.component.markdown.MarkdownContent
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveDialog
 
 @Composable
 fun LoadingDialogMaterial(

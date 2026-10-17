@@ -1,6 +1,6 @@
-package me.weishu.kernelsu.core.tasks
+package lol.nightmaple.zakusu.core.tasks
 
-import me.weishu.kernelsu.core.utils.DataSourceChannel
+import lol.nightmaple.zakusu.core.utils.DataSourceChannel
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipFile
 import org.apache.commons.compress.archivers.zip.ZipMethod

@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.ui.screen.appprofile
+package lol.nightmaple.zakusu.ui.screen.appprofile
 
 import androidx.compose.runtime.Immutable
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ui.screen.superuser.GroupedApps
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.ui.screen.superuser.GroupedApps
 
 @Immutable
 data class AppProfileUiState(

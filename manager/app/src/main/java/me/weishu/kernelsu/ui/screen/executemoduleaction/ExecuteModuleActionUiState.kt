@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.executemoduleaction
+package lol.nightmaple.zakusu.ui.screen.executemoduleaction
 
 import androidx.compose.runtime.Immutable
 

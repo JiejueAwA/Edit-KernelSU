@@ -1,13 +1,13 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.data.model.Module
-import me.weishu.kernelsu.data.model.ModuleUpdateInfo
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.util.isNetworkAvailable
-import me.weishu.kernelsu.ui.util.listModules
-import me.weishu.kernelsu.ui.util.module.sanitizeVersionString
+import lol.nightmaple.zakusu.data.model.Module
+import lol.nightmaple.zakusu.data.model.ModuleUpdateInfo
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.util.isNetworkAvailable
+import lol.nightmaple.zakusu.ui.util.listModules
+import lol.nightmaple.zakusu.ui.util.module.sanitizeVersionString
 import okhttp3.Request
 import org.json.JSONArray
 import org.json.JSONObject

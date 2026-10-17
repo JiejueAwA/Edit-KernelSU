@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.webui
+package lol.nightmaple.zakusu.ui.webui
 
 import android.content.Intent
 import androidx.activity.result.ActivityResultLauncher
@@ -14,7 +14,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import me.weishu.kernelsu.R
+import lol.nightmaple.zakusu.R
 
 @Composable
 fun HandleWebUIEventMaterial(

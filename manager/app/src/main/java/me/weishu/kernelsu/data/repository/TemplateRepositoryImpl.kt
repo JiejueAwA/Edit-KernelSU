@@ -1,13 +1,13 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
 import android.util.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.data.model.TemplateInfo
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.util.getAppProfileTemplate
-import me.weishu.kernelsu.ui.util.listAppProfileTemplates
-import me.weishu.kernelsu.ui.util.setAppProfileTemplate
+import lol.nightmaple.zakusu.data.model.TemplateInfo
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.util.getAppProfileTemplate
+import lol.nightmaple.zakusu.ui.util.listAppProfileTemplates
+import lol.nightmaple.zakusu.ui.util.setAppProfileTemplate
 import okhttp3.Request
 import org.json.JSONArray
 import org.json.JSONObject

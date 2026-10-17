@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.profile
+package lol.nightmaple.zakusu.ui.component.profile
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
@@ -26,14 +26,14 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.profile.Capabilities
-import me.weishu.kernelsu.profile.Groups
-import me.weishu.kernelsu.toRawFlags
-import me.weishu.kernelsu.toRootProfileFlags
-import me.weishu.kernelsu.ui.component.miuix.SuperEditArrow
-import me.weishu.kernelsu.ui.util.isSepolicyValid
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.profile.Capabilities
+import lol.nightmaple.zakusu.profile.Groups
+import lol.nightmaple.zakusu.toRawFlags
+import lol.nightmaple.zakusu.toRootProfileFlags
+import lol.nightmaple.zakusu.ui.component.miuix.SuperEditArrow
+import lol.nightmaple.zakusu.ui.util.isSepolicyValid
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.TextButton
 import top.yukonga.miuix.kmp.basic.TextField

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package lol.nightmaple.zakusu.ui.util
 
 import android.annotation.SuppressLint
 

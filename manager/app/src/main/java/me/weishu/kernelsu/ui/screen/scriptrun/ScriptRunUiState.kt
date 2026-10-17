@@ -1,12 +1,12 @@
-package me.weishu.kernelsu.ui.screen.scriptrun
+package lol.nightmaple.zakusu.ui.screen.scriptrun
 
 import android.net.Uri
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.data.script.ParamError
-import me.weishu.kernelsu.data.script.PreparedScript
-import me.weishu.kernelsu.data.script.ScriptRunRecord
+import lol.nightmaple.zakusu.data.script.ParamError
+import lol.nightmaple.zakusu.data.script.PreparedScript
+import lol.nightmaple.zakusu.data.script.ScriptRunRecord
 
 /** Navigation argument of the script run page. */
 @Parcelize

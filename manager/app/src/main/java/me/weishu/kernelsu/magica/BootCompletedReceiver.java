@@ -1,13 +1,13 @@
-package me.weishu.kernelsu.magica;
+package lol.nightmaple.zakusu.magica;
 
-import static me.weishu.kernelsu.magica.AppZygotePreload.TAG;
+import static lol.nightmaple.zakusu.magica.AppZygotePreload.TAG;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import me.weishu.kernelsu.ui.util.KsuCliKt;
+import lol.nightmaple.zakusu.ui.util.KsuCliKt;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -19,7 +19,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         var action = intent.getAction();
         if (!Intent.ACTION_LOCKED_BOOT_COMPLETED.equals(action)
                 && !Intent.ACTION_BOOT_COMPLETED.equals(action)
-                && !"me.weishu.kernelsu.magica.LAUNCH".equals(action)) {
+                && !"lol.nightmaple.zakusu.magica.LAUNCH".equals(action)) {
             return;
         }
         if (KsuCliKt.rootAvailable()) return;

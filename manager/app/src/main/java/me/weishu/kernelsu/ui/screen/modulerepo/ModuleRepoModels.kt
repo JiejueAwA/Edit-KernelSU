@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.modulerepo
+package lol.nightmaple.zakusu.ui.screen.modulerepo
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

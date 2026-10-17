@@ -1,10 +1,10 @@
-package me.weishu.kernelsu.ui.component.profile
+package lol.nightmaple.zakusu.ui.component.profile
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ui.LocalUiMode
-import me.weishu.kernelsu.ui.UiMode
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.ui.LocalUiMode
+import lol.nightmaple.zakusu.ui.UiMode
 
 @Composable
 fun AppProfileConfig(

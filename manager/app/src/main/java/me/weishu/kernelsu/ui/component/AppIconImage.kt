@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package lol.nightmaple.zakusu.ui.component
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
@@ -23,9 +23,9 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.ui.LocalUiMode
-import me.weishu.kernelsu.ui.UiMode
-import me.weishu.kernelsu.ui.util.AppIconCache
+import lol.nightmaple.zakusu.ui.LocalUiMode
+import lol.nightmaple.zakusu.ui.UiMode
+import lol.nightmaple.zakusu.ui.util.AppIconCache
 import top.yukonga.miuix.kmp.theme.MiuixTheme
 
 

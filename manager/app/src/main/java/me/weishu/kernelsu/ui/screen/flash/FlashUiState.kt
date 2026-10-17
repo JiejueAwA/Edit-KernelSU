@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.flash
+package lol.nightmaple.zakusu.ui.screen.flash
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Immutable

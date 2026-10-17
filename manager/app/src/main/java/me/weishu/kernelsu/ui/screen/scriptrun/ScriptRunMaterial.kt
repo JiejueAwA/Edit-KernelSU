@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.scriptrun
+package lol.nightmaple.zakusu.ui.screen.scriptrun
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.horizontalScroll
@@ -48,21 +48,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.script.PreparedScript
-import me.weishu.kernelsu.data.script.ScriptParam
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.SegmentedColumn
-import me.weishu.kernelsu.ui.component.material.SegmentedDropdownItem
-import me.weishu.kernelsu.ui.component.material.SegmentedItemContainer
-import me.weishu.kernelsu.ui.component.material.SegmentedListItem
-import me.weishu.kernelsu.ui.component.material.SegmentedSwitchItem
-import me.weishu.kernelsu.ui.component.material.SegmentedTextField
-import me.weishu.kernelsu.ui.component.material.TonalCard
-import me.weishu.kernelsu.ui.component.material.TopBarBackButton
-import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
-import me.weishu.kernelsu.ui.util.ShellHighlightColors
-import me.weishu.kernelsu.ui.util.rememberShellHighlight
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.script.PreparedScript
+import lol.nightmaple.zakusu.data.script.ScriptParam
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
+import lol.nightmaple.zakusu.ui.component.material.SegmentedDropdownItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedItemContainer
+import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedSwitchItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedTextField
+import lol.nightmaple.zakusu.ui.component.material.TonalCard
+import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
+import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
+import lol.nightmaple.zakusu.ui.util.ShellHighlightColors
+import lol.nightmaple.zakusu.ui.util.rememberShellHighlight
 
 @Composable
 internal fun ScriptRunScreenMaterial(

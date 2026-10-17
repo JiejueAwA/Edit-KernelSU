@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.sulog
+package lol.nightmaple.zakusu.ui.screen.sulog
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -64,19 +64,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.ScrollToTopOnChange
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.SearchAppBar
-import me.weishu.kernelsu.ui.component.material.SegmentedColumn
-import me.weishu.kernelsu.ui.component.material.SegmentedDropdownItem
-import me.weishu.kernelsu.ui.component.material.SegmentedItem
-import me.weishu.kernelsu.ui.component.material.SegmentedListItem
-import me.weishu.kernelsu.ui.component.material.TonalCard
-import me.weishu.kernelsu.ui.component.material.TopBarBackButton
-import me.weishu.kernelsu.ui.component.statustag.StatusTag
-import me.weishu.kernelsu.ui.util.SulogEntry
-import me.weishu.kernelsu.ui.util.SulogEventFilter
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.ScrollToTopOnChange
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.SearchAppBar
+import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
+import lol.nightmaple.zakusu.ui.component.material.SegmentedDropdownItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
+import lol.nightmaple.zakusu.ui.component.material.TonalCard
+import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
+import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
+import lol.nightmaple.zakusu.ui.util.SulogEntry
+import lol.nightmaple.zakusu.ui.util.SulogEventFilter
 
 @Composable
 fun SulogScreenMaterial(

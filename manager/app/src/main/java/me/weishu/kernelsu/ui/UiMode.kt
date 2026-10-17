@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui
+package lol.nightmaple.zakusu.ui
 
 import androidx.compose.runtime.staticCompositionLocalOf
 

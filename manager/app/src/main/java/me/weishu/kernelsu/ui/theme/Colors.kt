@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.theme
+package lol.nightmaple.zakusu.ui.theme
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb

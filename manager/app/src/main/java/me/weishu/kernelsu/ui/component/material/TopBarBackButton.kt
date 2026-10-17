@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.material
+package lol.nightmaple.zakusu.ui.component.material
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons

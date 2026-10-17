@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.module
+package lol.nightmaple.zakusu.ui.screen.module
 
 import android.content.Context
 import androidx.compose.animation.core.Animatable
@@ -21,7 +21,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
-import me.weishu.kernelsu.ui.util.module.Shortcut
+import lol.nightmaple.zakusu.ui.util.module.Shortcut
 import kotlin.math.roundToInt
 
 enum class ShortcutType {

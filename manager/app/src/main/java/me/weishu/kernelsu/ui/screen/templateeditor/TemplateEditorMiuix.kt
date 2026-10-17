@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.templateeditor
+package lol.nightmaple.zakusu.ui.screen.templateeditor
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
@@ -29,12 +29,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.miuix.EditText
-import me.weishu.kernelsu.ui.component.profile.RootProfileConfig
-import me.weishu.kernelsu.ui.theme.LocalEnableBlur
-import me.weishu.kernelsu.ui.util.BlurredBar
-import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.component.miuix.EditText
+import lol.nightmaple.zakusu.ui.component.profile.RootProfileConfig
+import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
+import lol.nightmaple.zakusu.ui.util.BlurredBar
+import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.IconButton

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
@@ -12,19 +12,19 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.registry.DownloadVerificationException
-import me.weishu.kernelsu.data.script.ReleasedException
-import me.weishu.kernelsu.data.script.ScriptCommand
-import me.weishu.kernelsu.data.script.ScriptPackageException
-import me.weishu.kernelsu.data.script.ScriptRepository
-import me.weishu.kernelsu.data.script.UnverifiedScriptException
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunArg
-import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunPhase
-import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunUiState
-import me.weishu.kernelsu.ui.util.removeAsRoot
-import me.weishu.kernelsu.ui.util.runOneshotScript
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.registry.DownloadVerificationException
+import lol.nightmaple.zakusu.data.script.ReleasedException
+import lol.nightmaple.zakusu.data.script.ScriptCommand
+import lol.nightmaple.zakusu.data.script.ScriptPackageException
+import lol.nightmaple.zakusu.data.script.ScriptRepository
+import lol.nightmaple.zakusu.data.script.UnverifiedScriptException
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunArg
+import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunPhase
+import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunUiState
+import lol.nightmaple.zakusu.ui.util.removeAsRoot
+import lol.nightmaple.zakusu.ui.util.runOneshotScript
 import java.util.UUID
 
 /** Prepares a one-shot script, collects its parameters and runs it once. */

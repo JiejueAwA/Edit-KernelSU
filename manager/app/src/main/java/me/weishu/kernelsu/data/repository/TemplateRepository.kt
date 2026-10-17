@@ -1,6 +1,6 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
-import me.weishu.kernelsu.data.model.TemplateInfo
+import lol.nightmaple.zakusu.data.model.TemplateInfo
 
 interface TemplateRepository {
     suspend fun getTemplates(sync: Boolean): Result<List<TemplateInfo>>

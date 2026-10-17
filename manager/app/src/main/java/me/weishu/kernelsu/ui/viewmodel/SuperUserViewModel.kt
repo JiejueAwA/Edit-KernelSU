@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import android.content.pm.ApplicationInfo
 import android.util.Log
@@ -14,18 +14,18 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.data.repository.SettingsRepository
-import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
-import me.weishu.kernelsu.data.repository.SuperUserRepository
-import me.weishu.kernelsu.data.repository.SuperUserRepositoryImpl
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.component.SearchStatus
-import me.weishu.kernelsu.ui.screen.superuser.GroupedApps
-import me.weishu.kernelsu.ui.screen.superuser.SuperUserUiState
-import me.weishu.kernelsu.ui.util.PinyinUtil
-import me.weishu.kernelsu.ui.util.ownerNameForUid
-import me.weishu.kernelsu.ui.util.pickPrimary
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.data.repository.SettingsRepository
+import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
+import lol.nightmaple.zakusu.data.repository.SuperUserRepository
+import lol.nightmaple.zakusu.data.repository.SuperUserRepositoryImpl
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.component.SearchStatus
+import lol.nightmaple.zakusu.ui.screen.superuser.GroupedApps
+import lol.nightmaple.zakusu.ui.screen.superuser.SuperUserUiState
+import lol.nightmaple.zakusu.ui.util.PinyinUtil
+import lol.nightmaple.zakusu.ui.util.ownerNameForUid
+import lol.nightmaple.zakusu.ui.util.pickPrimary
 import java.text.Collator
 import java.util.Locale
 
@@ -99,7 +99,7 @@ class SuperUserViewModel(
         }
     }
 
-    typealias AppInfo = me.weishu.kernelsu.data.model.AppInfo
+    typealias AppInfo = lol.nightmaple.zakusu.data.model.AppInfo
 
     private val _uiState = MutableStateFlow(SuperUserUiState())
     val uiState: StateFlow<SuperUserUiState> = _uiState.asStateFlow()

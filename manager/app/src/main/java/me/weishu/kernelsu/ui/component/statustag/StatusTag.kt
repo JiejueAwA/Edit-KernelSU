@@ -1,10 +1,10 @@
-package me.weishu.kernelsu.ui.component.statustag
+package lol.nightmaple.zakusu.ui.component.statustag
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import me.weishu.kernelsu.ui.LocalUiMode
-import me.weishu.kernelsu.ui.UiMode
+import lol.nightmaple.zakusu.ui.LocalUiMode
+import lol.nightmaple.zakusu.ui.UiMode
 
 @Composable
 fun StatusTag(

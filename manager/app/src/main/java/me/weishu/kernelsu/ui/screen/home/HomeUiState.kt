@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.ui.screen.home
+package lol.nightmaple.zakusu.ui.screen.home
 
 import androidx.compose.runtime.Immutable
-import me.weishu.kernelsu.KernelVersion
-import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
+import lol.nightmaple.zakusu.KernelVersion
+import lol.nightmaple.zakusu.ui.util.module.LatestVersionInfo
 
 @Immutable
 data class HomeUiState(

@@ -1,6 +1,6 @@
-package me.weishu.kernelsu.data.repository
+package lol.nightmaple.zakusu.data.repository
 
-import me.weishu.kernelsu.data.model.AppInfo
+import lol.nightmaple.zakusu.data.model.AppInfo
 
 interface SuperUserRepository {
     suspend fun getAppList(): Result<Pair<List<AppInfo>, List<Int>>>

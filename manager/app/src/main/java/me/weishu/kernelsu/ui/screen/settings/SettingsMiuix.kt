@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.settings
+package lol.nightmaple.zakusu.ui.screen.settings
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
@@ -41,15 +41,15 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.UiMode
-import me.weishu.kernelsu.ui.component.KsuIsValid
-import me.weishu.kernelsu.ui.component.dialog.rememberLoadingDialog
-import me.weishu.kernelsu.ui.component.miuix.SendLogDialog
-import me.weishu.kernelsu.ui.component.uninstalldialog.UninstallDialog
-import me.weishu.kernelsu.ui.theme.LocalEnableBlur
-import me.weishu.kernelsu.ui.util.BlurredBar
-import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.ui.UiMode
+import lol.nightmaple.zakusu.ui.component.KsuIsValid
+import lol.nightmaple.zakusu.ui.component.dialog.rememberLoadingDialog
+import lol.nightmaple.zakusu.ui.component.miuix.SendLogDialog
+import lol.nightmaple.zakusu.ui.component.uninstalldialog.UninstallDialog
+import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
+import lol.nightmaple.zakusu.ui.util.BlurredBar
+import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.Icon
 import top.yukonga.miuix.kmp.basic.MiuixScrollBehavior

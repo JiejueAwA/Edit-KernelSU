@@ -1,10 +1,10 @@
-package me.weishu.kernelsu.ui.screen.templateeditor
+package lol.nightmaple.zakusu.ui.screen.templateeditor
 
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.data.model.TemplateInfo
-import me.weishu.kernelsu.toRawFlags
-import me.weishu.kernelsu.ui.util.getAppProfileTemplate
-import me.weishu.kernelsu.ui.util.setAppProfileTemplate
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.data.model.TemplateInfo
+import lol.nightmaple.zakusu.toRawFlags
+import lol.nightmaple.zakusu.ui.util.getAppProfileTemplate
+import lol.nightmaple.zakusu.ui.util.setAppProfileTemplate
 
 fun toNativeProfile(templateInfo: TemplateInfo): Natives.Profile {
     val allFlags = Natives.Profile.RootProfileFlag.entries

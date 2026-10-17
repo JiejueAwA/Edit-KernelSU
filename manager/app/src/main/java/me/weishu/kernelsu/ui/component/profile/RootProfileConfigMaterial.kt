@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.profile
+package lol.nightmaple.zakusu.ui.component.profile
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,18 +21,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.profile.Capabilities
-import me.weishu.kernelsu.profile.Groups
-import me.weishu.kernelsu.toRawFlags
-import me.weishu.kernelsu.toRootProfileFlags
-import me.weishu.kernelsu.ui.component.material.SegmentedColumn
-import me.weishu.kernelsu.ui.component.material.SegmentedListItem
-import me.weishu.kernelsu.ui.component.material.SegmentedTextField
-import me.weishu.kernelsu.ui.component.profile.dialogs.MultiSelectDialog
-import me.weishu.kernelsu.ui.component.profile.dialogs.SingleSelectDialog
-import me.weishu.kernelsu.ui.util.isSepolicyValid
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.profile.Capabilities
+import lol.nightmaple.zakusu.profile.Groups
+import lol.nightmaple.zakusu.toRawFlags
+import lol.nightmaple.zakusu.toRootProfileFlags
+import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
+import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
+import lol.nightmaple.zakusu.ui.component.material.SegmentedTextField
+import lol.nightmaple.zakusu.ui.component.profile.dialogs.MultiSelectDialog
+import lol.nightmaple.zakusu.ui.component.profile.dialogs.SingleSelectDialog
+import lol.nightmaple.zakusu.ui.util.isSepolicyValid
 
 @Composable
 fun RootProfileConfigMaterial(

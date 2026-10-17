@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -12,20 +12,20 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.data.repository.SettingsRepository
-import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
-import me.weishu.kernelsu.ui.util.SulogEntry
-import me.weishu.kernelsu.ui.util.SulogEventFilter
-import me.weishu.kernelsu.ui.util.SulogFile
-import me.weishu.kernelsu.ui.util.SulogFileCleanAction
-import me.weishu.kernelsu.ui.util.buildVisibleSulogEntries
-import me.weishu.kernelsu.ui.util.cleanSulogFile
-import me.weishu.kernelsu.ui.util.defaultSulogEventFilters
-import me.weishu.kernelsu.ui.util.deleteSulogFile
-import me.weishu.kernelsu.ui.util.listSulogFiles
-import me.weishu.kernelsu.ui.util.parseSulogLines
-import me.weishu.kernelsu.ui.util.readSulogFile
-import me.weishu.kernelsu.ui.util.resolveSulogFileCleanAction
+import lol.nightmaple.zakusu.data.repository.SettingsRepository
+import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
+import lol.nightmaple.zakusu.ui.util.SulogEntry
+import lol.nightmaple.zakusu.ui.util.SulogEventFilter
+import lol.nightmaple.zakusu.ui.util.SulogFile
+import lol.nightmaple.zakusu.ui.util.SulogFileCleanAction
+import lol.nightmaple.zakusu.ui.util.buildVisibleSulogEntries
+import lol.nightmaple.zakusu.ui.util.cleanSulogFile
+import lol.nightmaple.zakusu.ui.util.defaultSulogEventFilters
+import lol.nightmaple.zakusu.ui.util.deleteSulogFile
+import lol.nightmaple.zakusu.ui.util.listSulogFiles
+import lol.nightmaple.zakusu.ui.util.parseSulogLines
+import lol.nightmaple.zakusu.ui.util.readSulogFile
+import lol.nightmaple.zakusu.ui.util.resolveSulogFileCleanAction
 
 data class SulogUiState(
     val isLoading: Boolean = true,

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.webui
+package lol.nightmaple.zakusu.ui.webui
 
 /**
  * Insets data class from GitHub@MMRLApp/WebUI-X-Portable

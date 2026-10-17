@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import android.system.OsConstants
 import android.widget.Toast
@@ -11,13 +11,13 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.repository.SettingsRepository
-import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.screen.settings.SettingsUiState
-import me.weishu.kernelsu.ui.theme.ColorMode
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.repository.SettingsRepository
+import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.screen.settings.SettingsUiState
+import lol.nightmaple.zakusu.ui.theme.ColorMode
 
 class SettingsViewModel(
     private val repo: SettingsRepository = SettingsRepositoryImpl()

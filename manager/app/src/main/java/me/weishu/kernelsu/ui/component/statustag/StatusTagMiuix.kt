@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.statustag
+package lol.nightmaple.zakusu.ui.component.statustag
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

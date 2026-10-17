@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.data.script
+package lol.nightmaple.zakusu.data.script
 
 import org.apache.commons.compress.archivers.zip.ZipArchiveEntry
 import org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream

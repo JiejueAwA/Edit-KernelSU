@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.ui.screen.sulog
+package lol.nightmaple.zakusu.ui.screen.sulog
 
-import me.weishu.kernelsu.ui.util.SulogEntry
-import me.weishu.kernelsu.ui.util.SulogEventFilter
-import me.weishu.kernelsu.ui.util.SulogFile
+import lol.nightmaple.zakusu.ui.util.SulogEntry
+import lol.nightmaple.zakusu.ui.util.SulogEventFilter
+import lol.nightmaple.zakusu.ui.util.SulogFile
 
 data class SulogScreenState(
     val isLoading: Boolean = true,

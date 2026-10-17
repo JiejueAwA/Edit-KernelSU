@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import android.os.SystemClock
 import android.util.Log
@@ -21,32 +21,32 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import kotlinx.coroutines.withTimeoutOrNull
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.model.Module
-import me.weishu.kernelsu.data.model.ModuleUpdateInfo
-import me.weishu.kernelsu.data.registry.UpdateVerification
-import me.weishu.kernelsu.data.repository.ModuleRepoRepository
-import me.weishu.kernelsu.data.repository.ModuleRepoRepositoryImpl
-import me.weishu.kernelsu.data.repository.ModuleRepository
-import me.weishu.kernelsu.data.repository.ModuleRepositoryImpl
-import me.weishu.kernelsu.data.repository.SettingsRepository
-import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.component.SearchStatus
-import me.weishu.kernelsu.ui.screen.module.ModuleConfirmDialogState
-import me.weishu.kernelsu.ui.screen.module.ModuleConfirmRequest
-import me.weishu.kernelsu.ui.screen.module.ModuleEffect
-import me.weishu.kernelsu.ui.screen.module.ModuleUiState
-import me.weishu.kernelsu.ui.util.PinyinUtil
-import me.weishu.kernelsu.ui.util.hasMagisk
+import lol.nightmaple.zakusu.Natives
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.model.Module
+import lol.nightmaple.zakusu.data.model.ModuleUpdateInfo
+import lol.nightmaple.zakusu.data.registry.UpdateVerification
+import lol.nightmaple.zakusu.data.repository.ModuleRepoRepository
+import lol.nightmaple.zakusu.data.repository.ModuleRepoRepositoryImpl
+import lol.nightmaple.zakusu.data.repository.ModuleRepository
+import lol.nightmaple.zakusu.data.repository.ModuleRepositoryImpl
+import lol.nightmaple.zakusu.data.repository.SettingsRepository
+import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
+import lol.nightmaple.zakusu.ksuApp
+import lol.nightmaple.zakusu.ui.component.SearchStatus
+import lol.nightmaple.zakusu.ui.screen.module.ModuleConfirmDialogState
+import lol.nightmaple.zakusu.ui.screen.module.ModuleConfirmRequest
+import lol.nightmaple.zakusu.ui.screen.module.ModuleEffect
+import lol.nightmaple.zakusu.ui.screen.module.ModuleUiState
+import lol.nightmaple.zakusu.ui.util.PinyinUtil
+import lol.nightmaple.zakusu.ui.util.hasMagisk
 import okhttp3.Request
 import java.text.Collator
 import java.util.Locale
 import kotlin.time.Duration.Companion.milliseconds
-import me.weishu.kernelsu.ui.util.toggleModule as toggleModuleUtil
-import me.weishu.kernelsu.ui.util.undoUninstallModule as undoUninstallModuleUtil
-import me.weishu.kernelsu.ui.util.uninstallModule as uninstallModuleUtil
+import lol.nightmaple.zakusu.ui.util.toggleModule as toggleModuleUtil
+import lol.nightmaple.zakusu.ui.util.undoUninstallModule as undoUninstallModuleUtil
+import lol.nightmaple.zakusu.ui.util.uninstallModule as uninstallModuleUtil
 
 class ModuleViewModel(
     private val repo: ModuleRepository = ModuleRepositoryImpl(),

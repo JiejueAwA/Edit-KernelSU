@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.install
+package lol.nightmaple.zakusu.ui.screen.install
 
 import android.app.Activity
 import android.content.Intent
@@ -22,26 +22,26 @@ import androidx.lifecycle.compose.dropUnlessResumed
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.getKernelVersion
-import me.weishu.kernelsu.ui.LocalUiMode
-import me.weishu.kernelsu.ui.UiMode
-import me.weishu.kernelsu.ui.component.choosekmidialog.ChooseKmiDialog
-import me.weishu.kernelsu.ui.component.dialog.DownloadDialog
-import me.weishu.kernelsu.ui.component.dialog.rememberLoadingDialog
-import me.weishu.kernelsu.ui.navigation3.LocalNavigator
-import me.weishu.kernelsu.ui.navigation3.Route
-import me.weishu.kernelsu.ui.screen.flash.FlashIt
-import me.weishu.kernelsu.ui.util.LkmSelection
-import me.weishu.kernelsu.ui.util.getAvailablePartitions
-import me.weishu.kernelsu.ui.util.getCurrentKmi
-import me.weishu.kernelsu.ui.util.getDefaultPartition
-import me.weishu.kernelsu.ui.util.getLoadedBlockableModules
-import me.weishu.kernelsu.ui.util.isBlockModulesValid
-import me.weishu.kernelsu.ui.util.getSlotSuffix
-import me.weishu.kernelsu.ui.util.isAbDevice
-import me.weishu.kernelsu.ui.util.probeRemoteBootPartitions
-import me.weishu.kernelsu.ui.util.rootAvailable
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.getKernelVersion
+import lol.nightmaple.zakusu.ui.LocalUiMode
+import lol.nightmaple.zakusu.ui.UiMode
+import lol.nightmaple.zakusu.ui.component.choosekmidialog.ChooseKmiDialog
+import lol.nightmaple.zakusu.ui.component.dialog.DownloadDialog
+import lol.nightmaple.zakusu.ui.component.dialog.rememberLoadingDialog
+import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
+import lol.nightmaple.zakusu.ui.navigation3.Route
+import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
+import lol.nightmaple.zakusu.ui.util.LkmSelection
+import lol.nightmaple.zakusu.ui.util.getAvailablePartitions
+import lol.nightmaple.zakusu.ui.util.getCurrentKmi
+import lol.nightmaple.zakusu.ui.util.getDefaultPartition
+import lol.nightmaple.zakusu.ui.util.getLoadedBlockableModules
+import lol.nightmaple.zakusu.ui.util.isBlockModulesValid
+import lol.nightmaple.zakusu.ui.util.getSlotSuffix
+import lol.nightmaple.zakusu.ui.util.isAbDevice
+import lol.nightmaple.zakusu.ui.util.probeRemoteBootPartitions
+import lol.nightmaple.zakusu.ui.util.rootAvailable
 import top.yukonga.miuix.kmp.basic.SnackbarHostState as MiuixSnackbarHostState
 
 @Composable

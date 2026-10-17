@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen.module
+package lol.nightmaple.zakusu.ui.screen.module
 
 import android.annotation.SuppressLint
 import android.app.Activity.RESULT_OK
@@ -126,22 +126,22 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.data.model.Module
-import me.weishu.kernelsu.data.model.ModuleUpdateInfo
-import me.weishu.kernelsu.data.repository.isSoftRebootPreferred
-import me.weishu.kernelsu.ui.component.ObserveAsEvents
-import me.weishu.kernelsu.ui.component.ScrollToTopOnChange
-import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
-import me.weishu.kernelsu.ui.component.dialog.rememberLoadingDialog
-import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
-import me.weishu.kernelsu.ui.component.material.ExpressiveSwitch
-import me.weishu.kernelsu.ui.component.material.SearchAppBar
-import me.weishu.kernelsu.ui.component.material.SnackBarHost
-import me.weishu.kernelsu.ui.component.material.TonalCard
-import me.weishu.kernelsu.ui.component.statustag.StatusTag
-import me.weishu.kernelsu.ui.theme.LocalModuleDescriptionMaxLines
-import me.weishu.kernelsu.ui.util.reboot
+import lol.nightmaple.zakusu.R
+import lol.nightmaple.zakusu.data.model.Module
+import lol.nightmaple.zakusu.data.model.ModuleUpdateInfo
+import lol.nightmaple.zakusu.data.repository.isSoftRebootPreferred
+import lol.nightmaple.zakusu.ui.component.ObserveAsEvents
+import lol.nightmaple.zakusu.ui.component.ScrollToTopOnChange
+import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
+import lol.nightmaple.zakusu.ui.component.dialog.rememberLoadingDialog
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
+import lol.nightmaple.zakusu.ui.component.material.ExpressiveSwitch
+import lol.nightmaple.zakusu.ui.component.material.SearchAppBar
+import lol.nightmaple.zakusu.ui.component.material.SnackBarHost
+import lol.nightmaple.zakusu.ui.component.material.TonalCard
+import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
+import lol.nightmaple.zakusu.ui.theme.LocalModuleDescriptionMaxLines
+import lol.nightmaple.zakusu.ui.util.reboot
 
 @SuppressLint("StringFormatInvalid")
 @Composable

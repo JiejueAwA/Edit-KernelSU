@@ -1,8 +1,8 @@
-package me.weishu.kernelsu.ui.viewmodel
+package lol.nightmaple.zakusu.ui.viewmodel
 
 import androidx.compose.runtime.Immutable
-import me.weishu.kernelsu.ui.UiMode
-import me.weishu.kernelsu.ui.theme.AppSettings
+import lol.nightmaple.zakusu.ui.UiMode
+import lol.nightmaple.zakusu.ui.theme.AppSettings
 
 @Immutable
 data class MainActivityUiState(
