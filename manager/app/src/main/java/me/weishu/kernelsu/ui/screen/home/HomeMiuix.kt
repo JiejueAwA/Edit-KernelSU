@@ -127,13 +127,9 @@ fun HomePagerMiuix(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(12.dp),
                     ) {
+                        WarningCard(stringResource(id = R.string.home_zakuwarning), level = WarningLevel.Notice)
                         if (state.checkUpdateEnabled) {
                             UpdateCard(state = state, actions = actions)
-                        }
-                        if (state.showManagerPrBuildWarning) {
-                            WarningCard(stringResource(id = R.string.home_pr_build_warning), level = WarningLevel.Notice)
-                        } else if (state.showKernelPrBuildWarning) {
-                            WarningCard(stringResource(id = R.string.home_pr_kernel_warning), level = WarningLevel.Notice)
                         }
                         if (state.showGkiWarning) {
                             WarningCard(stringResource(id = R.string.home_gki_warning), level = WarningLevel.Notice)
@@ -647,10 +643,6 @@ private fun HomeScreenPreviewContent(
             )
             InfoCard(
                 systemInfo = previewSystemInfo.copy(selinuxStatus = selinuxStatus),
-                modifier = Modifier.fillMaxWidth(),
-            )
-            SupportLinks(
-                onOpenUrl = {},
                 modifier = Modifier.fillMaxWidth(),
             )
         }
