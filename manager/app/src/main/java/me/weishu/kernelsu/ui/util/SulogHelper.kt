@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import android.os.SystemClock
 import com.topjohnwu.superuser.io.SuFile

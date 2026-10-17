@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package lol.nightmaple.zakusu.ui.webui;
+package me.weishu.kernelsu.ui.webui;
 
 import java.net.URLConnection;
 

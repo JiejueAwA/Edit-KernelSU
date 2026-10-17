@@ -1,8 +1,8 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.viewmodel.SuperUserViewModel
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
 import java.util.concurrent.ConcurrentHashMap
 
 private val PREFERRED_PKG_BY_SUID = mapOf(

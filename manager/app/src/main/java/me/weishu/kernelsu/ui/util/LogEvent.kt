@@ -1,11 +1,11 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import android.content.Context
 import android.os.Build
 import android.system.Os
 import com.topjohnwu.superuser.ShellUtils
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.ui.screen.home.getManagerVersion
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.ui.screen.home.getManagerVersion
 import java.io.File
 import java.io.FileWriter
 import java.io.PrintWriter

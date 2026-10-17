@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.repository
+package me.weishu.kernelsu.data.repository
 
 import android.content.ComponentName
 import android.content.Context
@@ -8,15 +8,15 @@ import androidx.core.content.edit
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
 import com.topjohnwu.superuser.ShellUtils
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.magica.BootCompletedReceiver
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.screen.modulerepo.RepoSort
-import lol.nightmaple.zakusu.ui.util.execKsud
-import lol.nightmaple.zakusu.ui.util.getFeaturePersistValue
-import lol.nightmaple.zakusu.ui.util.getFeatureValue
-import lol.nightmaple.zakusu.ui.util.getFeatureStatus
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.magica.BootCompletedReceiver
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.screen.modulerepo.RepoSort
+import me.weishu.kernelsu.ui.util.execKsud
+import me.weishu.kernelsu.ui.util.getFeaturePersistValue
+import me.weishu.kernelsu.ui.util.getFeatureValue
+import me.weishu.kernelsu.ui.util.getFeatureStatus
 import java.security.SecureRandom
 
 private const val SETTINGS_PREFS = "settings"

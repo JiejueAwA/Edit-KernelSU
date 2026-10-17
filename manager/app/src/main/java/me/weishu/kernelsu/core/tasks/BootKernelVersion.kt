@@ -1,9 +1,9 @@
-package lol.nightmaple.zakusu.core.tasks
+package me.weishu.kernelsu.core.tasks
 
 import org.apache.commons.compress.compressors.lz4.FramedLZ4CompressorInputStream
 import org.apache.commons.compress.compressors.xz.XZCompressorInputStream
 import org.apache.commons.io.IOUtils
-import lol.nightmaple.zakusu.core.utils.DataSourceChannel
+import me.weishu.kernelsu.core.utils.DataSourceChannel
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.DataInputStream

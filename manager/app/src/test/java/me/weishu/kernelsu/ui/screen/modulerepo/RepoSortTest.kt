@@ -1,7 +1,7 @@
-package lol.nightmaple.zakusu.ui.screen.modulerepo
+package me.weishu.kernelsu.ui.screen.modulerepo
 
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.model.RepoModule
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.model.RepoModule
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Test

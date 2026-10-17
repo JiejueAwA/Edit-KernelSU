@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.filter
+package me.weishu.kernelsu.ui.component.filter
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.text.TextRange

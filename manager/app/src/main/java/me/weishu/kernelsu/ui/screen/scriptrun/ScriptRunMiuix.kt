@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.scriptrun
+package me.weishu.kernelsu.ui.screen.scriptrun
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Box
@@ -42,15 +42,15 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.script.PreparedScript
-import lol.nightmaple.zakusu.data.script.ScriptParam
-import lol.nightmaple.zakusu.ui.component.miuix.EditText
-import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
-import lol.nightmaple.zakusu.ui.util.BlurredBar
-import lol.nightmaple.zakusu.ui.util.ShellHighlightColors
-import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
-import lol.nightmaple.zakusu.ui.util.rememberShellHighlight
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.script.PreparedScript
+import me.weishu.kernelsu.data.script.ScriptParam
+import me.weishu.kernelsu.ui.component.miuix.EditText
+import me.weishu.kernelsu.ui.theme.LocalEnableBlur
+import me.weishu.kernelsu.ui.util.BlurredBar
+import me.weishu.kernelsu.ui.util.ShellHighlightColors
+import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import me.weishu.kernelsu.ui.util.rememberShellHighlight
 import top.yukonga.miuix.kmp.basic.BasicComponent
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.Card

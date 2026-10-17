@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.profile
+package me.weishu.kernelsu.profile
 
 /**
  * https://cs.android.com/android/platform/superproject/main/+/main:system/core/libcutils/include/private/android_filesystem_config.h

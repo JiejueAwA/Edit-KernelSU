@@ -1,9 +1,9 @@
-package lol.nightmaple.zakusu.ui.screen.settings
+package me.weishu.kernelsu.ui.screen.settings
 
 import androidx.compose.runtime.Immutable
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
-import lol.nightmaple.zakusu.ui.UiMode
+import me.weishu.kernelsu.ui.UiMode
 
 @Immutable
 data class SettingsUiState(

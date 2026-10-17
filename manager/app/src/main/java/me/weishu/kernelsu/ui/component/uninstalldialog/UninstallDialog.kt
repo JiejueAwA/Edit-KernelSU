@@ -1,8 +1,8 @@
-package lol.nightmaple.zakusu.ui.component.uninstalldialog
+package me.weishu.kernelsu.ui.component.uninstalldialog
 
 import androidx.compose.runtime.Composable
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
 
 @Composable
 fun UninstallDialog(

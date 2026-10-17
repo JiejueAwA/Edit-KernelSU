@@ -1,16 +1,16 @@
-package lol.nightmaple.zakusu.ui.navigation3
+package me.weishu.kernelsu.ui.navigation3
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
-import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
-import lol.nightmaple.zakusu.ui.screen.modulerepo.RepoModuleArg
-import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunArg
-import lol.nightmaple.zakusu.ui.util.FlashItSerializer
-import lol.nightmaple.zakusu.ui.util.RepoModuleArgSerializer
-import lol.nightmaple.zakusu.ui.util.ScriptRunArgSerializer
-import lol.nightmaple.zakusu.ui.util.TemplateInfoSerializer
-import lol.nightmaple.zakusu.ui.viewmodel.TemplateViewModel
+import me.weishu.kernelsu.ui.screen.flash.FlashIt
+import me.weishu.kernelsu.ui.screen.modulerepo.RepoModuleArg
+import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunArg
+import me.weishu.kernelsu.ui.util.FlashItSerializer
+import me.weishu.kernelsu.ui.util.RepoModuleArgSerializer
+import me.weishu.kernelsu.ui.util.ScriptRunArgSerializer
+import me.weishu.kernelsu.ui.util.TemplateInfoSerializer
+import me.weishu.kernelsu.ui.viewmodel.TemplateViewModel
 import top.yukonga.miuix.kmp.nav.core.NavKey
 
 /**

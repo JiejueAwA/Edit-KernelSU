@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.profile
+package me.weishu.kernelsu.ui.component.profile
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -13,14 +13,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
-import lol.nightmaple.zakusu.ui.component.profile.dialogs.SingleSelectDialog
-import lol.nightmaple.zakusu.ui.util.listAppProfileTemplates
-import lol.nightmaple.zakusu.ui.util.setSepolicy
-import lol.nightmaple.zakusu.ui.viewmodel.getTemplateInfoById
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedListItem
+import me.weishu.kernelsu.ui.component.profile.dialogs.SingleSelectDialog
+import me.weishu.kernelsu.ui.util.listAppProfileTemplates
+import me.weishu.kernelsu.ui.util.setSepolicy
+import me.weishu.kernelsu.ui.viewmodel.getTemplateInfoById
 
 private data class TemplateOption(
     val id: String,

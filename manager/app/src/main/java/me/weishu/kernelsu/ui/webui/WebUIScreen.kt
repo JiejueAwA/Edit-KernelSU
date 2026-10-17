@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.webui
+package me.weishu.kernelsu.ui.webui
 
 import android.app.Activity
 import android.content.Intent
@@ -30,8 +30,8 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
 
 @Composable
 fun rememberFileLauncher(webUIState: WebUIState): ActivityResultLauncher<Intent> {

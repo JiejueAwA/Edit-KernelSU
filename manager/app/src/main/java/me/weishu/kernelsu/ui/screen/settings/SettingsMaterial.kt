@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.settings
+package me.weishu.kernelsu.ui.screen.settings
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -48,18 +48,18 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.component.KsuIsValid
-import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedDropdownItem
-import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
-import lol.nightmaple.zakusu.ui.component.material.SegmentedSwitchItem
-import lol.nightmaple.zakusu.ui.component.material.SendLogBottomSheet
-import lol.nightmaple.zakusu.ui.component.material.SnackBarHost
-import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
-import lol.nightmaple.zakusu.ui.component.uninstalldialog.UninstallDialog
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.component.KsuIsValid
+import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedDropdownItem
+import me.weishu.kernelsu.ui.component.material.SegmentedListItem
+import me.weishu.kernelsu.ui.component.material.SegmentedSwitchItem
+import me.weishu.kernelsu.ui.component.material.SendLogBottomSheet
+import me.weishu.kernelsu.ui.component.material.SnackBarHost
+import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
+import me.weishu.kernelsu.ui.component.uninstalldialog.UninstallDialog
 
 /**
  * @author weishu

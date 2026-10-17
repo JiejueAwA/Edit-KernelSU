@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.viewmodel
+package me.weishu.kernelsu.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,10 +8,10 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import lol.nightmaple.zakusu.data.model.RepoModuleDetail
-import lol.nightmaple.zakusu.data.registry.ModuleNotInIndexException
-import lol.nightmaple.zakusu.data.repository.ModuleRepoRepository
-import lol.nightmaple.zakusu.data.repository.ModuleRepoRepositoryImpl
+import me.weishu.kernelsu.data.model.RepoModuleDetail
+import me.weishu.kernelsu.data.registry.ModuleNotInIndexException
+import me.weishu.kernelsu.data.repository.ModuleRepoRepository
+import me.weishu.kernelsu.data.repository.ModuleRepoRepositoryImpl
 
 /** Loads the registry detail (and README) of one module for the detail screen. */
 class ModuleRepoDetailViewModel(

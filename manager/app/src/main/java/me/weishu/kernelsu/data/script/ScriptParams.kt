@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.script
+package me.weishu.kernelsu.data.script
 
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json

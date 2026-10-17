@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.module
+package me.weishu.kernelsu.ui.screen.module
 
 import android.content.Context
 import androidx.compose.runtime.Composable
@@ -14,8 +14,8 @@ import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.data.model.Module
-import lol.nightmaple.zakusu.ui.util.module.Shortcut
+import me.weishu.kernelsu.data.model.Module
+import me.weishu.kernelsu.ui.util.module.Shortcut
 
 @Stable
 class ModuleShortcutState internal constructor(

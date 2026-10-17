@@ -1,8 +1,8 @@
-package lol.nightmaple.zakusu.ui.screen.templateeditor
+package me.weishu.kernelsu.ui.screen.templateeditor
 
 import androidx.compose.runtime.Immutable
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.data.model.TemplateInfo
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.data.model.TemplateInfo
 
 @Immutable
 data class TemplateEditorUiState(

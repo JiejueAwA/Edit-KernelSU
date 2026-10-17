@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import java.util.Locale
 import kotlin.math.pow

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.sulog
+package me.weishu.kernelsu.ui.screen.sulog
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -11,16 +11,16 @@ import androidx.compose.ui.text.withStyle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.compose.dropUnlessResumed
 import androidx.lifecycle.viewmodel.compose.viewModel
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.util.SulogEntry
-import lol.nightmaple.zakusu.ui.util.SulogEventFilter
-import lol.nightmaple.zakusu.ui.util.SulogEventType
-import lol.nightmaple.zakusu.ui.util.SulogFile
-import lol.nightmaple.zakusu.ui.util.toSulogDisplayName
-import lol.nightmaple.zakusu.ui.viewmodel.SulogViewModel
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.util.SulogEntry
+import me.weishu.kernelsu.ui.util.SulogEventFilter
+import me.weishu.kernelsu.ui.util.SulogEventType
+import me.weishu.kernelsu.ui.util.SulogFile
+import me.weishu.kernelsu.ui.util.toSulogDisplayName
+import me.weishu.kernelsu.ui.viewmodel.SulogViewModel
 
 @Composable
 fun SulogScreen() {

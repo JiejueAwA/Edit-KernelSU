@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component
+package me.weishu.kernelsu.ui.component
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

@@ -1,3 +1,3 @@
-package lol.nightmaple.zakusu.ui.component
+package me.weishu.kernelsu.ui.component
 
 enum class WarningLevel { Error, Notice }

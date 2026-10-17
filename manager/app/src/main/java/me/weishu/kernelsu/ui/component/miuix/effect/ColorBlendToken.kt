@@ -1,6 +1,6 @@
 // Mirrored from compose-miuix-ui example.
 
-package lol.nightmaple.zakusu.ui.component.miuix.effect
+package me.weishu.kernelsu.ui.component.miuix.effect
 
 import androidx.compose.ui.graphics.Color
 import top.yukonga.miuix.kmp.blur.BlendColorEntry

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.about
+package me.weishu.kernelsu.ui.screen.about
 
 import android.text.Html
 import android.text.Spanned

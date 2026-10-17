@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.superuser
+package me.weishu.kernelsu.ui.screen.superuser
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
@@ -61,18 +61,18 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.model.AppInfo
-import lol.nightmaple.zakusu.ui.component.AppIconImage
-import lol.nightmaple.zakusu.ui.component.ScrollToTopOnChange
-import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
-import lol.nightmaple.zakusu.ui.component.material.SearchAppBar
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedItem
-import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
-import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
-import lol.nightmaple.zakusu.ui.util.ownerNameForUid
-import lol.nightmaple.zakusu.ui.viewmodel.AppSortType
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.model.AppInfo
+import me.weishu.kernelsu.ui.component.AppIconImage
+import me.weishu.kernelsu.ui.component.ScrollToTopOnChange
+import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
+import me.weishu.kernelsu.ui.component.material.SearchAppBar
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedItem
+import me.weishu.kernelsu.ui.component.material.SegmentedListItem
+import me.weishu.kernelsu.ui.component.statustag.StatusTag
+import me.weishu.kernelsu.ui.util.ownerNameForUid
+import me.weishu.kernelsu.ui.viewmodel.AppSortType
 
 @Composable
 fun SuperUserPagerMaterial(

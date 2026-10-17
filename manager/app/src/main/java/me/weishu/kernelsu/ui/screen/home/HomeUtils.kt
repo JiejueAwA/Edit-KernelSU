@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.home
+package me.weishu.kernelsu.ui.screen.home
 
 import android.content.Context
 import androidx.compose.runtime.Immutable

@@ -1,13 +1,13 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import android.net.Uri
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.data.registry.ExpectedFile
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.util.module.LatestVersionInfo
+import me.weishu.kernelsu.data.registry.ExpectedFile
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
 import okhttp3.Request
 
 /**

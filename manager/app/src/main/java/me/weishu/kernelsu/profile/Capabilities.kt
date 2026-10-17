@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.profile
+package me.weishu.kernelsu.profile
 
 /**
  * @author weishu

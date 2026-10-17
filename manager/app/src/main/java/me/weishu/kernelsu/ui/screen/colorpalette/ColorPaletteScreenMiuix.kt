@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.colorpalette
+package me.weishu.kernelsu.ui.screen.colorpalette
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -70,13 +70,13 @@ import androidx.compose.ui.unit.sp
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
 import com.materialkolor.rememberDynamicColorScheme
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.bottombar.useNavigationRail
-import lol.nightmaple.zakusu.ui.component.miuix.ScaleDialog
-import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
-import lol.nightmaple.zakusu.ui.theme.keyColorOptions
-import lol.nightmaple.zakusu.ui.util.BlurredBar
-import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.bottombar.useNavigationRail
+import me.weishu.kernelsu.ui.component.miuix.ScaleDialog
+import me.weishu.kernelsu.ui.theme.LocalEnableBlur
+import me.weishu.kernelsu.ui.theme.keyColorOptions
+import me.weishu.kernelsu.ui.util.BlurredBar
+import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
 import top.yukonga.miuix.kmp.basic.BasicComponent
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.Icon

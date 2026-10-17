@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.theme
+package me.weishu.kernelsu.ui.theme
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.spring

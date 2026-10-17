@@ -1,11 +1,11 @@
-package lol.nightmaple.zakusu.ui.screen.module
+package me.weishu.kernelsu.ui.screen.module
 
 import android.net.Uri
 import androidx.compose.runtime.Immutable
-import lol.nightmaple.zakusu.data.registry.ExpectedFile
-import lol.nightmaple.zakusu.data.model.Module
-import lol.nightmaple.zakusu.data.model.ModuleUpdateInfo
-import lol.nightmaple.zakusu.ui.component.SearchStatus
+import me.weishu.kernelsu.data.registry.ExpectedFile
+import me.weishu.kernelsu.data.model.Module
+import me.weishu.kernelsu.data.model.ModuleUpdateInfo
+import me.weishu.kernelsu.ui.component.SearchStatus
 
 sealed interface ModuleConfirmRequest {
     data class Update(

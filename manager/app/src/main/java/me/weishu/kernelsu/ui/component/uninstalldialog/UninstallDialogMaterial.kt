@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.uninstalldialog
+package me.weishu.kernelsu.ui.component.uninstalldialog
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
@@ -9,16 +9,16 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.navigation3.Route
-import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
-import lol.nightmaple.zakusu.ui.screen.flash.UninstallType
-import lol.nightmaple.zakusu.ui.screen.flash.UninstallType.PERMANENT
-import lol.nightmaple.zakusu.ui.screen.flash.UninstallType.RESTORE_STOCK_IMAGE
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedListItem
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.navigation3.Route
+import me.weishu.kernelsu.ui.screen.flash.FlashIt
+import me.weishu.kernelsu.ui.screen.flash.UninstallType
+import me.weishu.kernelsu.ui.screen.flash.UninstallType.PERMANENT
+import me.weishu.kernelsu.ui.screen.flash.UninstallType.RESTORE_STOCK_IMAGE
 
 @Composable
 fun UninstallDialogMaterial(

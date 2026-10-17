@@ -1,8 +1,8 @@
-package lol.nightmaple.zakusu.ui.component.choosekmidialog
+package me.weishu.kernelsu.ui.component.choosekmidialog
 
 import androidx.compose.runtime.Composable
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
 
 @Composable
 fun ChooseKmiDialog(

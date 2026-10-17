@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.settings
+package me.weishu.kernelsu.ui.screen.settings
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -11,11 +11,11 @@ import androidx.compose.ui.unit.Dp
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.Navigator
-import lol.nightmaple.zakusu.ui.navigation3.Route
-import lol.nightmaple.zakusu.ui.viewmodel.SettingsViewModel
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.Navigator
+import me.weishu.kernelsu.ui.navigation3.Route
+import me.weishu.kernelsu.ui.viewmodel.SettingsViewModel
 
 @Composable
 fun SettingPager(

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.repository
+package me.weishu.kernelsu.data.repository
 
 interface SettingsRepository {
     var uiMode: String
@@ -22,7 +22,7 @@ interface SettingsRepository {
     var enableWebDebugging: Boolean
     var moduleSortEnabledFirst: Boolean
     var moduleSortActionFirst: Boolean
-    /** Name of the [lol.nightmaple.zakusu.ui.screen.modulerepo.RepoSort] entry. */
+    /** Name of the [me.weishu.kernelsu.ui.screen.modulerepo.RepoSort] entry. */
     var moduleRepoSortOrder: String
     var superuserShowSystemApps: Boolean
     var superuserShowOnlyPrimaryUserApps: Boolean

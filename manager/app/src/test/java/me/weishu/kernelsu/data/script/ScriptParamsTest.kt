@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.script
+package me.weishu.kernelsu.data.script
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

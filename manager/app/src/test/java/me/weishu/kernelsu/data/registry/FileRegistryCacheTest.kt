@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.registry
+package me.weishu.kernelsu.data.registry
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

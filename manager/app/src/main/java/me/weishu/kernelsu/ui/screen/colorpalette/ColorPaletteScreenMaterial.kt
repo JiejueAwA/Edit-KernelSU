@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.colorpalette
+package me.weishu.kernelsu.ui.screen.colorpalette
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -84,19 +84,19 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.bottombar.useNavigationRail
-import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
-import lol.nightmaple.zakusu.ui.component.material.ExpressiveToggleButton
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedDropdownItem
-import lol.nightmaple.zakusu.ui.component.material.SegmentedSwitchItem
-import lol.nightmaple.zakusu.ui.component.material.TonalCard
-import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
-import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
-import lol.nightmaple.zakusu.ui.theme.ColorMode
-import lol.nightmaple.zakusu.ui.theme.keyColorOptions
-import lol.nightmaple.zakusu.ui.theme.rememberKernelSUColorScheme
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.bottombar.useNavigationRail
+import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
+import me.weishu.kernelsu.ui.component.material.ExpressiveToggleButton
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedDropdownItem
+import me.weishu.kernelsu.ui.component.material.SegmentedSwitchItem
+import me.weishu.kernelsu.ui.component.material.TonalCard
+import me.weishu.kernelsu.ui.component.material.TopBarBackButton
+import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
+import me.weishu.kernelsu.ui.theme.ColorMode
+import me.weishu.kernelsu.ui.theme.keyColorOptions
+import me.weishu.kernelsu.ui.theme.rememberKernelSUColorScheme
 import kotlin.math.roundToInt
 
 @Composable

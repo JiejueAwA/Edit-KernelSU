@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu
+package me.weishu.kernelsu
 
 import android.system.Os
 

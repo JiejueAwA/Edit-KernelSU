@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util.module
+package me.weishu.kernelsu.ui.util.module
 
 import android.app.AppOpsManager
 import android.content.Context
@@ -16,14 +16,14 @@ import androidx.core.graphics.scale
 import androidx.core.net.toUri
 import com.topjohnwu.superuser.io.SuFile
 import com.topjohnwu.superuser.io.SuFileInputStream
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
-import lol.nightmaple.zakusu.ui.MainActivity
-import lol.nightmaple.zakusu.ui.screen.module.ShortcutType
-import lol.nightmaple.zakusu.ui.util.getRootShell
-import lol.nightmaple.zakusu.ui.util.isColorOS
-import lol.nightmaple.zakusu.ui.util.isHyperOS
-import lol.nightmaple.zakusu.ui.util.isMiui
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
+import me.weishu.kernelsu.ui.MainActivity
+import me.weishu.kernelsu.ui.screen.module.ShortcutType
+import me.weishu.kernelsu.ui.util.getRootShell
+import me.weishu.kernelsu.ui.util.isColorOS
+import me.weishu.kernelsu.ui.util.isHyperOS
+import me.weishu.kernelsu.ui.util.isMiui
 
 object Shortcut {
 

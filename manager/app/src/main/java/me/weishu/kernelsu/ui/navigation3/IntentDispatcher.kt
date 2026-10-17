@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.navigation3
+package me.weishu.kernelsu.ui.navigation3
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -17,17 +17,17 @@ import androidx.compose.ui.platform.LocalResources
 import androidx.core.net.toUri
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.launch
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
-import lol.nightmaple.zakusu.data.script.ScriptRepository
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
-import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
-import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunArg
-import lol.nightmaple.zakusu.ui.util.DownloadService
-import lol.nightmaple.zakusu.ui.util.getFileName
-import lol.nightmaple.zakusu.ui.webui.WebUIActivity
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
+import me.weishu.kernelsu.data.script.ScriptRepository
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
+import me.weishu.kernelsu.ui.screen.flash.FlashIt
+import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunArg
+import me.weishu.kernelsu.ui.util.DownloadService
+import me.weishu.kernelsu.ui.util.getFileName
+import me.weishu.kernelsu.ui.webui.WebUIActivity
 
 private const val SCHEME_KSU = "ksu"
 private const val HOST_ACTION = "action"

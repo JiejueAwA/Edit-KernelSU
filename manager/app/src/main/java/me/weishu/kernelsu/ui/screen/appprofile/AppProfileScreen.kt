@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.appprofile
+package me.weishu.kernelsu.ui.screen.appprofile
 
 import android.widget.Toast
 import androidx.compose.material3.SnackbarHostState
@@ -16,19 +16,19 @@ import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.dropUnlessResumed
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.navigation3.Route
-import lol.nightmaple.zakusu.ui.util.forceStopApp
-import lol.nightmaple.zakusu.ui.util.getSepolicy
-import lol.nightmaple.zakusu.ui.util.launchApp
-import lol.nightmaple.zakusu.ui.util.restartApp
-import lol.nightmaple.zakusu.ui.util.setSepolicy
-import lol.nightmaple.zakusu.ui.viewmodel.SuperUserViewModel
-import lol.nightmaple.zakusu.ui.viewmodel.getTemplateInfoById
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.navigation3.Route
+import me.weishu.kernelsu.ui.util.forceStopApp
+import me.weishu.kernelsu.ui.util.getSepolicy
+import me.weishu.kernelsu.ui.util.launchApp
+import me.weishu.kernelsu.ui.util.restartApp
+import me.weishu.kernelsu.ui.util.setSepolicy
+import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import me.weishu.kernelsu.ui.viewmodel.getTemplateInfoById
 
 @Composable
 fun AppProfileScreen(uid: Int) {

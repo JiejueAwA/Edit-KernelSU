@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.core.utils
+package me.weishu.kernelsu.core.utils
 
 import okhttp3.OkHttpClient
 import okhttp3.Request

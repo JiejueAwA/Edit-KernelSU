@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.rebootlistpopup
+package me.weishu.kernelsu.ui.component.rebootlistpopup
 
 import android.content.Context
 import android.os.PowerManager
@@ -7,12 +7,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.component.dialog.rememberConfirmDialog
-import lol.nightmaple.zakusu.ui.util.reboot
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.component.dialog.rememberConfirmDialog
+import me.weishu.kernelsu.ui.util.reboot
 
 data class RebootListOption(
     @param:StringRes val labelRes: Int,

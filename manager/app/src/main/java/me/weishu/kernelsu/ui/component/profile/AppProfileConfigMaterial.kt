@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.profile
+package me.weishu.kernelsu.ui.component.profile
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -6,11 +6,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedSwitchItem
-import lol.nightmaple.zakusu.ui.component.material.SegmentedTextField
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedSwitchItem
+import me.weishu.kernelsu.ui.component.material.SegmentedTextField
 
 @Composable
 fun AppProfileConfigMaterial(

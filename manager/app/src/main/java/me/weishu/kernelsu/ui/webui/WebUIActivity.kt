@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.webui
+package me.weishu.kernelsu.ui.webui
 
 import android.annotation.SuppressLint
 import android.content.SharedPreferences
@@ -25,11 +25,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.theme.KernelSUTheme
-import lol.nightmaple.zakusu.ui.theme.ThemeController
+import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.theme.KernelSUTheme
+import me.weishu.kernelsu.ui.theme.ThemeController
 import top.yukonga.miuix.kmp.basic.InfiniteProgressIndicator
 
 @SuppressLint("SetJavaScriptEnabled")

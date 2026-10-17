@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.script
+package me.weishu.kernelsu.data.script
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertThrows
@@ -7,7 +7,7 @@ import org.junit.Test
 class ScriptCommandTest {
 
     private val host = ScriptHostInfo(ksuVersion = "v3.0.0-1-gabc", ksuVersionCode = 31234, kernelVersionCode = 32500, lateLoad = false)
-    private val dir = "/data/user/0/lol.nightmaple.zakusu/files/oneshot/" + "a".repeat(64)
+    private val dir = "/data/user/0/me.weishu.kernelsu/files/oneshot/" + "a".repeat(64)
 
     private val params = ScriptParamsParser.parse(
         """

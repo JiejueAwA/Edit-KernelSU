@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.script
+package me.weishu.kernelsu.data.script
 
 import android.content.ContentResolver
 import android.content.Context
@@ -15,13 +15,13 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.BuildConfig
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.data.registry.DownloadVerificationException
-import lol.nightmaple.zakusu.data.registry.RegistryDownloadStore
-import lol.nightmaple.zakusu.data.registry.copyForInstall
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.util.removeAsRoot
+import me.weishu.kernelsu.BuildConfig
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.data.registry.DownloadVerificationException
+import me.weishu.kernelsu.data.registry.RegistryDownloadStore
+import me.weishu.kernelsu.data.registry.copyForInstall
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.util.removeAsRoot
 import java.io.File
 import java.io.IOException
 import java.nio.file.Files

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.module
+package me.weishu.kernelsu.ui.screen.module
 
 import android.Manifest
 import android.content.Intent
@@ -23,20 +23,20 @@ import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.script.ScriptRepository
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.component.SearchStatus
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.navigation3.Route
-import lol.nightmaple.zakusu.ui.screen.flash.FlashIt
-import lol.nightmaple.zakusu.ui.screen.modulerepo.downloadFailureMessage
-import lol.nightmaple.zakusu.ui.screen.scriptrun.ScriptRunArg
-import lol.nightmaple.zakusu.ui.util.download
-import lol.nightmaple.zakusu.ui.util.module.Shortcut
-import lol.nightmaple.zakusu.ui.viewmodel.ModuleViewModel
-import lol.nightmaple.zakusu.ui.webui.WebUIActivity
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.script.ScriptRepository
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.component.SearchStatus
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.navigation3.Route
+import me.weishu.kernelsu.ui.screen.flash.FlashIt
+import me.weishu.kernelsu.ui.screen.modulerepo.downloadFailureMessage
+import me.weishu.kernelsu.ui.screen.scriptrun.ScriptRunArg
+import me.weishu.kernelsu.ui.util.download
+import me.weishu.kernelsu.ui.util.module.Shortcut
+import me.weishu.kernelsu.ui.viewmodel.ModuleViewModel
+import me.weishu.kernelsu.ui.webui.WebUIActivity
 
 @Composable
 fun ModulePager(

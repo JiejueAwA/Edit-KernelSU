@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.appprofile
+package me.weishu.kernelsu.ui.screen.appprofile
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.expandVertically
@@ -47,22 +47,22 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.AppIconImage
-import lol.nightmaple.zakusu.ui.component.ListPopupDefaults
-import lol.nightmaple.zakusu.ui.component.miuix.DropdownItem
-import lol.nightmaple.zakusu.ui.component.profile.AppProfileConfig
-import lol.nightmaple.zakusu.ui.component.profile.RootProfileConfig
-import lol.nightmaple.zakusu.ui.component.profile.TemplateConfig
-import lol.nightmaple.zakusu.ui.component.statustag.StatusTag
-import lol.nightmaple.zakusu.ui.theme.LocalEnableBlur
-import lol.nightmaple.zakusu.ui.util.BlurredBar
-import lol.nightmaple.zakusu.ui.util.listAppProfileTemplates
-import lol.nightmaple.zakusu.ui.util.ownerNameForUid
-import lol.nightmaple.zakusu.ui.util.rememberBlurBackdrop
-import lol.nightmaple.zakusu.ui.util.setSepolicy
-import lol.nightmaple.zakusu.ui.viewmodel.SuperUserViewModel
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.AppIconImage
+import me.weishu.kernelsu.ui.component.ListPopupDefaults
+import me.weishu.kernelsu.ui.component.miuix.DropdownItem
+import me.weishu.kernelsu.ui.component.profile.AppProfileConfig
+import me.weishu.kernelsu.ui.component.profile.RootProfileConfig
+import me.weishu.kernelsu.ui.component.profile.TemplateConfig
+import me.weishu.kernelsu.ui.component.statustag.StatusTag
+import me.weishu.kernelsu.ui.theme.LocalEnableBlur
+import me.weishu.kernelsu.ui.util.BlurredBar
+import me.weishu.kernelsu.ui.util.listAppProfileTemplates
+import me.weishu.kernelsu.ui.util.ownerNameForUid
+import me.weishu.kernelsu.ui.util.rememberBlurBackdrop
+import me.weishu.kernelsu.ui.util.setSepolicy
+import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
 import top.yukonga.miuix.kmp.basic.BasicComponent
 import top.yukonga.miuix.kmp.basic.Card
 import top.yukonga.miuix.kmp.basic.Icon
@@ -354,7 +354,7 @@ private fun AppProfileInner(
                     Mode.Template -> {
                         if (templates.isNotEmpty()) {
                             val selected = profile.rootTemplate ?: templates[0]
-                            val info = lol.nightmaple.zakusu.ui.viewmodel.getTemplateInfoById(selected)
+                            val info = me.weishu.kernelsu.ui.viewmodel.getTemplateInfoById(selected)
                             if (info != null && setSepolicy(selected, info.rules.joinToString("\n"))) {
                                 onProfileChange(
                                     profile.copy(

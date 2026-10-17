@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.executemoduleaction
+package me.weishu.kernelsu.ui.screen.executemoduleaction
 
 import android.os.Environment
 import android.os.Handler
@@ -12,9 +12,9 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.repository.ModuleRepositoryImpl
-import lol.nightmaple.zakusu.ui.util.runModuleAction
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.repository.ModuleRepositoryImpl
+import me.weishu.kernelsu.ui.util.runModuleAction
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.webui;
+package me.weishu.kernelsu.ui.webui;
 
 import android.content.Context;
 import android.content.SharedPreferences;

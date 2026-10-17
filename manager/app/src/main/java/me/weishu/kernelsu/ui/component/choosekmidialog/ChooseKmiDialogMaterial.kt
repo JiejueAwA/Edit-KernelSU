@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.choosekmidialog
+package me.weishu.kernelsu.ui.component.choosekmidialog
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -14,11 +14,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedRadioItem
-import lol.nightmaple.zakusu.ui.util.getCurrentKmi
-import lol.nightmaple.zakusu.ui.util.getSupportedKmis
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedRadioItem
+import me.weishu.kernelsu.ui.util.getCurrentKmi
+import me.weishu.kernelsu.ui.util.getSupportedKmis
 
 @Composable
 fun ChooseKmiDialogMaterial(

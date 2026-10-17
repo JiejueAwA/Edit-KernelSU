@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.viewmodel
+package me.weishu.kernelsu.ui.viewmodel
 
 import android.os.Build
 import android.system.Os
@@ -11,20 +11,20 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.BuildConfig
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.data.repository.SettingsRepository
-import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
-import lol.nightmaple.zakusu.getKernelVersion
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.screen.home.HomeUiState
-import lol.nightmaple.zakusu.ui.screen.home.SystemInfo
-import lol.nightmaple.zakusu.ui.screen.home.getManagerVersion
-import lol.nightmaple.zakusu.ui.util.checkNewVersion
-import lol.nightmaple.zakusu.ui.util.getSELinuxStatusRaw
-import lol.nightmaple.zakusu.ui.util.module.LatestVersionInfo
-import lol.nightmaple.zakusu.ui.util.resolveDeviceName
-import lol.nightmaple.zakusu.ui.util.rootAvailable
+import me.weishu.kernelsu.BuildConfig
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.data.repository.SettingsRepository
+import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
+import me.weishu.kernelsu.getKernelVersion
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.screen.home.HomeUiState
+import me.weishu.kernelsu.ui.screen.home.SystemInfo
+import me.weishu.kernelsu.ui.screen.home.getManagerVersion
+import me.weishu.kernelsu.ui.util.checkNewVersion
+import me.weishu.kernelsu.ui.util.getSELinuxStatusRaw
+import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
+import me.weishu.kernelsu.ui.util.resolveDeviceName
+import me.weishu.kernelsu.ui.util.rootAvailable
 
 class HomeViewModel(
     private val settingsRepo: SettingsRepository = SettingsRepositoryImpl()

@@ -1,9 +1,9 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
-import lol.nightmaple.zakusu.ui.util.ShellTokenKind.COMMENT
-import lol.nightmaple.zakusu.ui.util.ShellTokenKind.KEYWORD
-import lol.nightmaple.zakusu.ui.util.ShellTokenKind.STRING
-import lol.nightmaple.zakusu.ui.util.ShellTokenKind.VARIABLE
+import me.weishu.kernelsu.ui.util.ShellTokenKind.COMMENT
+import me.weishu.kernelsu.ui.util.ShellTokenKind.KEYWORD
+import me.weishu.kernelsu.ui.util.ShellTokenKind.STRING
+import me.weishu.kernelsu.ui.util.ShellTokenKind.VARIABLE
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

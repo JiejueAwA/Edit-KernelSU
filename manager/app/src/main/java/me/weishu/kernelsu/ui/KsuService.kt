@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui
+package me.weishu.kernelsu.ui
 
 import android.content.Intent
 import android.content.pm.PackageInfo
@@ -7,7 +7,7 @@ import android.os.IBinder
 import android.os.UserManager
 import android.util.Log
 import com.topjohnwu.superuser.ipc.RootService
-import lol.nightmaple.zakusu.IKsuInterface
+import me.weishu.kernelsu.IKsuInterface
 import rikka.parcelablelist.ParcelableListSlice
 
 /**

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.dialog
+package me.weishu.kernelsu.ui.component.dialog
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -23,9 +23,9 @@ import androidx.compose.ui.unit.dp
 import androidx.navigationevent.NavigationEventInfo
 import androidx.navigationevent.compose.NavigationBackHandler
 import androidx.navigationevent.compose.rememberNavigationEventState
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.data.registry.RegistryUrls
-import lol.nightmaple.zakusu.ui.component.markdown.MarkdownContent
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.data.registry.RegistryUrls
+import me.weishu.kernelsu.ui.component.markdown.MarkdownContent
 import top.yukonga.miuix.kmp.basic.ButtonDefaults
 import top.yukonga.miuix.kmp.basic.InfiniteProgressIndicator
 import top.yukonga.miuix.kmp.basic.Text

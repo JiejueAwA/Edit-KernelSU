@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable

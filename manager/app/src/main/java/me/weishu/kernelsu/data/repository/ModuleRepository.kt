@@ -1,7 +1,7 @@
-package lol.nightmaple.zakusu.data.repository
+package me.weishu.kernelsu.data.repository
 
-import lol.nightmaple.zakusu.data.model.Module
-import lol.nightmaple.zakusu.data.model.ModuleUpdateInfo
+import me.weishu.kernelsu.data.model.Module
+import me.weishu.kernelsu.data.model.ModuleUpdateInfo
 
 interface ModuleRepository {
     suspend fun getModules(): Result<List<Module>>

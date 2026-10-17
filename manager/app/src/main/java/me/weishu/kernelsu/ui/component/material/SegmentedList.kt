@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.material
+package me.weishu.kernelsu.ui.component.material
 
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.animateFloatAsState

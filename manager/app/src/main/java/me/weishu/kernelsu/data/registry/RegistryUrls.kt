@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.registry
+package me.weishu.kernelsu.data.registry
 
 import java.net.URI
 import java.net.URLDecoder

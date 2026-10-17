@@ -1,5 +1,5 @@
 // IKsuInterface.aidl
-package lol.nightmaple.zakusu;
+package me.weishu.kernelsu;
 
 import android.content.pm.PackageInfo;
 import rikka.parcelablelist.ParcelableListSlice;

@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import android.content.ContentResolver
 import android.content.Context
@@ -16,16 +16,16 @@ import com.topjohnwu.superuser.ShellUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import lol.nightmaple.zakusu.BuildConfig
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.core.tasks.BootKernelVersion
-import lol.nightmaple.zakusu.core.tasks.ExtractImage
-import lol.nightmaple.zakusu.core.tasks.ProbeResult
-import lol.nightmaple.zakusu.core.utils.DataSourceChannel
-import lol.nightmaple.zakusu.data.registry.DownloadVerificationException
-import lol.nightmaple.zakusu.data.registry.RegistryDownloadStore
-import lol.nightmaple.zakusu.data.registry.copyForInstall
-import lol.nightmaple.zakusu.ksuApp
+import me.weishu.kernelsu.BuildConfig
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.core.tasks.BootKernelVersion
+import me.weishu.kernelsu.core.tasks.ExtractImage
+import me.weishu.kernelsu.core.tasks.ProbeResult
+import me.weishu.kernelsu.core.utils.DataSourceChannel
+import me.weishu.kernelsu.data.registry.DownloadVerificationException
+import me.weishu.kernelsu.data.registry.RegistryDownloadStore
+import me.weishu.kernelsu.data.registry.copyForInstall
+import me.weishu.kernelsu.ksuApp
 import okhttp3.OkHttpClient
 import org.json.JSONArray
 import java.io.File

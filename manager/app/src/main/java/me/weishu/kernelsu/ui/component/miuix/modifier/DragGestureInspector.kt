@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.miuix.modifier
+package me.weishu.kernelsu.ui.component.miuix.modifier
 
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown

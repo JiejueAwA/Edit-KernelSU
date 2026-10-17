@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.material
+package me.weishu.kernelsu.ui.component.material
 
 import androidx.compose.foundation.indication
 import androidx.compose.foundation.interaction.MutableInteractionSource

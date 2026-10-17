@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.viewmodel
+package me.weishu.kernelsu.ui.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
@@ -8,13 +8,13 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.Natives
-import lol.nightmaple.zakusu.data.repository.TemplateRepository
-import lol.nightmaple.zakusu.data.repository.TemplateRepositoryImpl
-import lol.nightmaple.zakusu.profile.Capabilities
-import lol.nightmaple.zakusu.profile.Groups
-import lol.nightmaple.zakusu.ui.screen.template.TemplateUiState
-import lol.nightmaple.zakusu.ui.util.getAppProfileTemplate
+import me.weishu.kernelsu.Natives
+import me.weishu.kernelsu.data.repository.TemplateRepository
+import me.weishu.kernelsu.data.repository.TemplateRepositoryImpl
+import me.weishu.kernelsu.profile.Capabilities
+import me.weishu.kernelsu.profile.Groups
+import me.weishu.kernelsu.ui.screen.template.TemplateUiState
+import me.weishu.kernelsu.ui.util.getAppProfileTemplate
 import org.json.JSONArray
 import org.json.JSONObject
 import java.text.Collator
@@ -26,7 +26,7 @@ class TemplateViewModel(
     private val repo: TemplateRepository = TemplateRepositoryImpl()
 ) : ViewModel() {
 
-    typealias TemplateInfo = lol.nightmaple.zakusu.data.model.TemplateInfo
+    typealias TemplateInfo = me.weishu.kernelsu.data.model.TemplateInfo
 
     private val _uiState = MutableStateFlow(TemplateUiState())
     val uiState: StateFlow<TemplateUiState> = _uiState.asStateFlow()
@@ -80,9 +80,9 @@ class TemplateViewModel(
     }
 }
 
-fun getTemplateInfoById(id: String): lol.nightmaple.zakusu.data.model.TemplateInfo? {
+fun getTemplateInfoById(id: String): me.weishu.kernelsu.data.model.TemplateInfo? {
     return runCatching {
-        lol.nightmaple.zakusu.data.model.TemplateInfo.fromJSON(JSONObject(getAppProfileTemplate(id)))
+        me.weishu.kernelsu.data.model.TemplateInfo.fromJSON(JSONObject(getAppProfileTemplate(id)))
     }.onFailure {
         Log.e(TAG, "ignore invalid template: $it", it)
     }.getOrNull()

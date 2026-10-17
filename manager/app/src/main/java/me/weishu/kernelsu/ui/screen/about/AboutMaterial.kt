@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.about
+package me.weishu.kernelsu.ui.screen.about
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -31,12 +31,12 @@ import androidx.compose.ui.layout.FixedScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.material.ExpressiveScaffold
-import lol.nightmaple.zakusu.ui.component.material.SegmentedColumn
-import lol.nightmaple.zakusu.ui.component.material.SegmentedListItem
-import lol.nightmaple.zakusu.ui.component.material.TopBarBackButton
-import lol.nightmaple.zakusu.ui.component.material.expressiveTopAppBarColors
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.material.ExpressiveScaffold
+import me.weishu.kernelsu.ui.component.material.SegmentedColumn
+import me.weishu.kernelsu.ui.component.material.SegmentedListItem
+import me.weishu.kernelsu.ui.component.material.TopBarBackButton
+import me.weishu.kernelsu.ui.component.material.expressiveTopAppBarColors
 
 @Composable
 fun AboutScreenMaterial(

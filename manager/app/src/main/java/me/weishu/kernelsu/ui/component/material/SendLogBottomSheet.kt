@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.material
+package me.weishu.kernelsu.ui.component.material
 
 import android.content.Context
 import android.content.ContextWrapper
@@ -41,10 +41,10 @@ import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import lol.nightmaple.zakusu.BuildConfig
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.component.dialog.rememberLoadingDialog
-import lol.nightmaple.zakusu.ui.util.getBugreportFile
+import me.weishu.kernelsu.BuildConfig
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.component.dialog.rememberLoadingDialog
+import me.weishu.kernelsu.ui.util.getBugreportFile
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 

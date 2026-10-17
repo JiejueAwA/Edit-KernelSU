@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util.module
+package me.weishu.kernelsu.ui.util.module
 
 data class LatestVersionInfo(
     val versionCode: Int = 0,

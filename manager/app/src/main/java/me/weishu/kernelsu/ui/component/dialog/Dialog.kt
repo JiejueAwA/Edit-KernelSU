@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component.dialog
+package me.weishu.kernelsu.ui.component.dialog
 
 import android.os.Parcelable
 import android.util.Log
@@ -22,8 +22,8 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.parcelize.Parcelize
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
 import kotlin.coroutines.resume
 
 private const val TAG = "DialogComponent"

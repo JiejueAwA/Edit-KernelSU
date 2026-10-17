@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.templateeditor
+package me.weishu.kernelsu.ui.screen.templateeditor
 
 import android.widget.Toast
 import androidx.compose.runtime.Composable
@@ -10,14 +10,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.dropUnlessResumed
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.toOrdinalList
-import lol.nightmaple.zakusu.toRootProfileFlags
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.util.deleteAppProfileTemplate
-import lol.nightmaple.zakusu.ui.viewmodel.TemplateViewModel
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.toOrdinalList
+import me.weishu.kernelsu.toRootProfileFlags
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.util.deleteAppProfileTemplate
+import me.weishu.kernelsu.ui.viewmodel.TemplateViewModel
 
 @Composable
 fun TemplateEditorScreen(template: TemplateViewModel.TemplateInfo, readOnly: Boolean) {

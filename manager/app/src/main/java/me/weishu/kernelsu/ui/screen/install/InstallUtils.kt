@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.install
+package me.weishu.kernelsu.ui.screen.install
 
 import android.content.Context
 import android.net.Uri
@@ -7,7 +7,7 @@ import android.provider.OpenableColumns
 import androidx.annotation.StringRes
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
-import lol.nightmaple.zakusu.R
+import me.weishu.kernelsu.R
 
 @Parcelize
 internal sealed class InstallMethod : Parcelable {

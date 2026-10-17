@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.script
+package me.weishu.kernelsu.data.script
 
 /** What the manager knows about the running KernelSU, exported to the script like ksud does. */
 data class ScriptHostInfo(

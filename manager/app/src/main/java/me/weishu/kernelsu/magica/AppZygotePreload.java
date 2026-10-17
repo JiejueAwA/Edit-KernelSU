@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.magica;
+package me.weishu.kernelsu.magica;
 
 import android.app.ZygotePreload;
 import android.content.pm.ApplicationInfo;

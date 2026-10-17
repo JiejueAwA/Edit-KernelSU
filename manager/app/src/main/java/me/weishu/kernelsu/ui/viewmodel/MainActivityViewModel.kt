@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.viewmodel
+package me.weishu.kernelsu.ui.viewmodel
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -7,11 +7,11 @@ import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import lol.nightmaple.zakusu.data.repository.SettingsRepository
-import lol.nightmaple.zakusu.data.repository.SettingsRepositoryImpl
-import lol.nightmaple.zakusu.ksuApp
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.theme.ThemeController
+import me.weishu.kernelsu.data.repository.SettingsRepository
+import me.weishu.kernelsu.data.repository.SettingsRepositoryImpl
+import me.weishu.kernelsu.ksuApp
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.theme.ThemeController
 
 class MainActivityViewModel(
     savedStateHandle: SavedStateHandle,

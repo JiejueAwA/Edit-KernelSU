@@ -1,7 +1,7 @@
-package lol.nightmaple.zakusu.ui.screen.install
+package me.weishu.kernelsu.ui.screen.install
 
 import androidx.compose.runtime.Immutable
-import lol.nightmaple.zakusu.ui.util.LkmSelection
+import me.weishu.kernelsu.ui.util.LkmSelection
 
 @Immutable
 internal data class InstallUiState(

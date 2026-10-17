@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.registry
+package me.weishu.kernelsu.data.registry
 
 /**
  * Module content in the registry is single-language, so no content locale fallback exists.

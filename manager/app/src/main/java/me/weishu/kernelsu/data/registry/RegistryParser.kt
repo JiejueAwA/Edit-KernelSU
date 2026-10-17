@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.data.registry
+package me.weishu.kernelsu.data.registry
 
 import kotlinx.serialization.SerializationException
 import kotlinx.serialization.json.Json

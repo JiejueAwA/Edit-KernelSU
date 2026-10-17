@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.colorpalette
+package me.weishu.kernelsu.ui.screen.colorpalette
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.runtime.Composable
@@ -9,12 +9,12 @@ import androidx.lifecycle.compose.dropUnlessResumed
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.materialkolor.PaletteStyle
 import com.materialkolor.dynamiccolor.ColorSpec
-import lol.nightmaple.zakusu.KernelSUApplication
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
-import lol.nightmaple.zakusu.ui.theme.ColorMode
-import lol.nightmaple.zakusu.ui.viewmodel.SettingsViewModel
+import me.weishu.kernelsu.KernelSUApplication
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.theme.ColorMode
+import me.weishu.kernelsu.ui.viewmodel.SettingsViewModel
 
 @Composable
 fun ColorPaletteScreen() {

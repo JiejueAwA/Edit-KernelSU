@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.flash
+package me.weishu.kernelsu.ui.screen.flash
 
 import android.net.Uri
 import android.os.Environment
@@ -28,14 +28,14 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.util.FlashResult
-import lol.nightmaple.zakusu.ui.util.LkmSelection
-import lol.nightmaple.zakusu.ui.util.downloadBoot
-import lol.nightmaple.zakusu.ui.util.flashModule
-import lol.nightmaple.zakusu.ui.util.installBoot
-import lol.nightmaple.zakusu.ui.util.restoreBoot
-import lol.nightmaple.zakusu.ui.util.uninstallPermanently
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.util.FlashResult
+import me.weishu.kernelsu.ui.util.LkmSelection
+import me.weishu.kernelsu.ui.util.downloadBoot
+import me.weishu.kernelsu.ui.util.flashModule
+import me.weishu.kernelsu.ui.util.installBoot
+import me.weishu.kernelsu.ui.util.restoreBoot
+import me.weishu.kernelsu.ui.util.uninstallPermanently
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date

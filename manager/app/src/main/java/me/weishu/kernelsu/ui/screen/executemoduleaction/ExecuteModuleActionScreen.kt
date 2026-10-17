@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.screen.executemoduleaction
+package me.weishu.kernelsu.ui.screen.executemoduleaction
 
 import android.widget.Toast
 import androidx.activity.compose.LocalActivity
@@ -14,9 +14,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
 import androidx.lifecycle.compose.dropUnlessResumed
 import kotlinx.coroutines.launch
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
 
 @Composable
 fun ExecuteModuleActionScreen(moduleId: String, fromShortcut: Boolean = false) {

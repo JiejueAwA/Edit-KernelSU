@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.util
+package me.weishu.kernelsu.ui.util
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,10 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
-import lol.nightmaple.zakusu.data.registry.DownloadVerificationException
-import lol.nightmaple.zakusu.data.registry.ExpectedFile
-import lol.nightmaple.zakusu.data.registry.RegistryUrls
-import lol.nightmaple.zakusu.data.registry.canShareDownload
+import me.weishu.kernelsu.data.registry.DownloadVerificationException
+import me.weishu.kernelsu.data.registry.ExpectedFile
+import me.weishu.kernelsu.data.registry.RegistryUrls
+import me.weishu.kernelsu.data.registry.canShareDownload
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.atomic.AtomicInteger
 

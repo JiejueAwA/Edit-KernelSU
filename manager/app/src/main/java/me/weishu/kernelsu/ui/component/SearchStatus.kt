@@ -1,4 +1,4 @@
-package lol.nightmaple.zakusu.ui.component
+package me.weishu.kernelsu.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

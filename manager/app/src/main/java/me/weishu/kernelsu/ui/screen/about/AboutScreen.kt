@@ -1,14 +1,14 @@
-package lol.nightmaple.zakusu.ui.screen.about
+package me.weishu.kernelsu.ui.screen.about
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.compose.dropUnlessResumed
-import lol.nightmaple.zakusu.BuildConfig
-import lol.nightmaple.zakusu.R
-import lol.nightmaple.zakusu.ui.LocalUiMode
-import lol.nightmaple.zakusu.ui.UiMode
-import lol.nightmaple.zakusu.ui.navigation3.LocalNavigator
+import me.weishu.kernelsu.BuildConfig
+import me.weishu.kernelsu.R
+import me.weishu.kernelsu.ui.LocalUiMode
+import me.weishu.kernelsu.ui.UiMode
+import me.weishu.kernelsu.ui.navigation3.LocalNavigator
 
 @Composable
 fun AboutScreen() {
